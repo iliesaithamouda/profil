@@ -1,38 +1,27 @@
-import { Directive, ElementRef, HostListener, Renderer2, ChangeDetectorRef, OnInit, OnDestroy } from '@angular/core';
+import { Directive, ElementRef, HostListener, Renderer2} from '@angular/core';
 
 @Directive({
-  selector: '[toto]'
+  selector: '[scrollableBackgroundImage]'
 })
-export class ScrollBackgroundDirective implements OnInit, OnDestroy {
+export class ScrollBackgroundDirective {
 
-  /*@HostListener('scroll', ['$event'])
-  onScroll(event) {
-    console.log('scrolllll');
-    this.handleScroll(null);
-  }*/
-  constructor(private el : ElementRef, private renderer: Renderer2, private changeDetectorRef: ChangeDetectorRef ) { 
+  
+  constructor(private el : ElementRef, private renderer: Renderer2) { 
   }
 
-  ngOnInit() {
-    window.addEventListener('scroll', this.handleScroll, true);
-  }
+  @HostListener('window:scroll')
+  onScroll() {
+    var element : any = this.el.nativeElement; //document.getElementsByClassName('background-pic-m')[0];
+    var backgroundTop = element.scrollTop;
+    var backgroundHeight = element.clientHeight;
+    var top = window.scrollY;
 
-   handleScroll(event: any) {
-     
-      var element : any = document.getElementsByClassName('background-pic-m')[0];
-      var backgroundTop = element.scrollTop;
-      var backgroundHeight = element.clientHeight;
-      var top = window.scrollY;
+    var yPos = ((top - backgroundTop))/2;
 
-      var yPos = ((top - backgroundTop))/2;
-
-      if ( yPos <= backgroundHeight + backgroundTop ) {
-        element.style.backgroundPosition = '50% ' + yPos + 'px';
-      }
-  }
-
-  ngOnDestroy() {
-    window.removeEventListener('scroll',this.handleScroll, true);
+    if ( yPos <= backgroundHeight + backgroundTop ) {
+      //element.style.backgroundPosition = '50% ' + yPos + 'px';
+      this.renderer.setStyle(element, 'background-position', '50% ' + yPos + 'px');
+    }
   }
 
 }

@@ -1,8 +1,6 @@
 .menu-container {
     position: fixed;
     width: 100%;
-    padding-top: 20px;
-    transition: background-color 1s ease;
     z-index: 2;
     .menu-grid-container {
         max-width: 1170px;
@@ -25,12 +23,5 @@
             font-weight: 700;
             cursor: pointer;
         }
-    }
-}
-
-.stickyMenu {
-    background-color: #FFFFFF;
-    .menu-grid-container {    
-        color: rgb(35, 35, 35);
     }
 }

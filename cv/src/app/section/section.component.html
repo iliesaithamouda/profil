@@ -1,4 +1,4 @@
-<div toto class="section-container {{backgroundColorClass}}" [ngClass]="{'background-pic-m low-opacity' : sectionType === 'Home'}">
+<div scrollableBackgroundImage class="section-container {{backgroundColorClass}}" [ngClass]="{'background-pic-m low-opacity' : sectionType === 'Home'}">
   <div *ngIf="sectionType === 'Home'" class="overlay-shadow"></div>
   <div class="section">
     <app-home *ngIf="sectionType === 'Home'"></app-home>

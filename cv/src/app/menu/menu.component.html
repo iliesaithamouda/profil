@@ -1,5 +1,5 @@
-<div appOnscroll class="menu-container">
-    <div class="menu-grid-container">
+<div [@animateStickyMenu]="menuState" class="menu-container">
+    <div [@animateColorMenu]="menuState" class="menu-grid-container">
         <div class="logo-container">logo</div>
         <div *ngFor="let menuItem of menu.items">
           <a appSmoothScrolling name="{{menuItem.label}}" class="menu-item" >{{ menuItem.label.toUpperCase() }}</a>
