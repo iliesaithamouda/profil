@@ -1,0 +1,22 @@
+.profile-pic-container {
+    img {
+        width:170px;
+        border: 3px solid rgb(223, 223, 223);
+        border-radius: 50%;
+    }
+}
+
+.introduction-container {
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .introduction-phrase {
+        font-size: 26px;
+        color: rgb(191, 191, 191);
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,31 @@
+.menu-container {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    .menu-grid-container {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 50% 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px;
+        grid-gap: 10px;
+        color: #FFFFFF;
+        
+         
+        & div {
+            align-items: center;
+            display: flex;
+        }
+
+        .menu-item {
+            font-family: "Lato", sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .logo-container {
+            width: 100px;
+        }
+    }
+}
