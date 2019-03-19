@@ -1,0 +1,11 @@
+<div class="progress-description">
+  <div class="title">
+    {{title}}
+  </div>
+  <div class="progress-percentage">
+    {{progressRate}} %
+  </div>
+</div>
+<div class="line progressive-line">
+  <div [@animateProgress]="{ value: animate, params : {test : progress}}" class="line progress-skill"></div>
+</div>

@@ -1,8 +1,8 @@
 .box-list {
     // border: 1px solid black;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 49%));// repeat(auto-fill,minmax(500px, 1fr));
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 48%));// repeat(auto-fill,minmax(500px, 1fr));
     text-align: left;
     padding: 20px;
     .box {
