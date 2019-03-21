@@ -1,0 +1,9 @@
+<div class="portfolio-container">
+  <div class="title-container">
+    <h2>{{data.title}}</h2>
+  </div>
+  <div class="grid-container">
+    <div class="box" *ngFor="let item of data.items; let i = index">{{ item.description }}</div>
+  </div>
+</div>
+

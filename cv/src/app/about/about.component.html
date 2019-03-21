@@ -1,13 +1,17 @@
+
 <div class="box-list">
   <div class="box">
     <h3 class="section-subtitle">Hi There! I'm Ilyes Ait Hamouda</h3>
     <p class="description">I'm a professional developer from Montréal, Canada. I create beautiful professional websites using best practice accessibility. I enjoy turning complex problems into simple, beautiful and intuitive interface designs. </p>
     <div class="flex-box-container">
-      <div class="flex-box">Email : iliesaithamouda@gmail.com</div>
-      <div class="flex-box">Location : H1E, Montréal, CA.</div>
-      <div class="flex-box">Date of birth : 8 November 1988</div>
-      <div class="flex-box">Phone : +1-514-475-4146</div>
+      <div class="flex-box"><a class="effect" href="mailto:iliesaithamouda@gmail.com"><i class="fas fa-envelope"></i> iliesaithamouda@gmail.com</a></div>
+      <div class="flex-box"><a class="effect" href="tel:15144754146"><i class="fas fa-mobile-alt"></i> +1-514-475-4146</a></div>
     </div>
+    <div class="flex-box-container grid-container-min-1-fr">  
+      <div class="flex-box media-icons effect"><i class="fab fa-linkedin-in"></i></div>
+      <div class="flex-box media-icons effect"><i class="fab fa-medium"></i></div>
+    </div>
+
   </div>
   <div class="box">
       <app-progressive-bar [title]="'Angular'" [progress]="75"></app-progressive-bar>

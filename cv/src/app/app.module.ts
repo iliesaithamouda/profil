@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { ScrollButtonComponent } from './scroll-button/scroll-button.component';
 import { AboutComponent } from './about/about.component';
 import { ProgressiveBarComponent } from './progressive-bar/progressive-bar.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProgressiveBarComponent } from './progressive-bar/progressive-bar.compo
     HomeComponent,
     ScrollButtonComponent,
     AboutComponent,
-    ProgressiveBarComponent
+    ProgressiveBarComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
