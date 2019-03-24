@@ -14,10 +14,9 @@
 
   </div>
   <div class="box">
-      <app-progressive-bar [title]="'Angular'" [progress]="75"></app-progressive-bar>
-      <app-progressive-bar [title]="'AEM'" [progress]="60"></app-progressive-bar>
-      <app-progressive-bar [title]="'Java'" [progress]="85"></app-progressive-bar>
-      <app-progressive-bar [title]="'React'" [progress]="10"></app-progressive-bar>
+    <ng-template ngFor let-expertise [ngForOf]="expertises">
+      <app-progressive-bar [title]="expertise.domain" [progress]="expertise.percentage"></app-progressive-bar>
+    </ng-template>
   </div>
   
 </div>

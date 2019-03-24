@@ -2,8 +2,34 @@
   <div class="title-container">
     <h2>{{data.title}}</h2>
   </div>
-  <div class="grid-container">
-    <div class="box" *ngFor="let item of data.items; let i = index">{{ item.description }}</div>
+  <div class="grid-container" [ngClass]="{'grid-container-larger': layoutType === 'Work'}">
+    
+      <ng-template ngFor let-item [ngForOf]="data.items" let-i="index" let-c="count">
+        <div class="box" *ngIf="layoutType === 'Services'; else work" [ngClass]="{'middle': i === 1 || i === 4}">
+          <div class="icon">
+            <i class="fab" [ngClass]="item.imgPath"></i>
+          </div>
+          <div class="title">
+            <h3>{{ item.title }}</h3>
+          </div>
+          <div class="description">
+            {{ item.description }}
+          </div>
+        </div>
+        <ng-template #work >
+
+            <div class="box" class="image-container">
+              <img class="image" [src]="item.imgPath" />
+              <div class="overlay-container effect">
+                  <div class="border-box">
+                      <div class="title">{{ item.title }}</div>
+                  </div>
+              </div>
+            </div>
+            
+        </ng-template>
+      </ng-template>
+    
   </div>
 </div>
 

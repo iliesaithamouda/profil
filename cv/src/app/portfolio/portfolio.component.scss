@@ -27,11 +27,82 @@
         display: grid;
         grid-gap: 40px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        text-align: left;
+        text-align: center;
         padding: 20px;
         .box {
             display: flex;
             flex-direction: column;
+            .title h3 {
+                font-size: 19px;
+                font-weight: 700;
+                text-transform: uppercase;
+                position: relative;
+                padding-bottom: 15px;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    background-color: rgb(51, 51, 51);
+                    height: 1px;
+                    left: 42%;
+                    bottom: 0px;
+                    width: 55px;
+                    text-align: center;
+                }
+            }
+            .icon {
+                font-size: 44px;
+                line-height: 70px;
+            }
         }
+
+        .image-container {
+            margin: 10px;
+            position: relative;
+
+            .image {
+                width: 100%;
+                height: 100%;
+            }
+            .overlay-container {
+                position: absolute;
+                width: 95%;
+                height: 95%;
+                margin: 2.5%;
+                background-color: transparent;
+                top: 0;
+                left:0;
+                color: transparent;
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.8);
+                    color: #FFF;
+                    .border-box {
+                        border-color: #FFFFFF;
+                    }
+                }
+
+                .border-box {
+                    border: 1px solid transparent;
+                    width: 90%;
+                    height: 90%;
+                    margin: 5%;
+                    position: relative;
+                    .title {
+                        position: absolute;
+                        bottom: 20px;
+                        left: 20px;
+                        opacity: 1;
+                        text-transform: capitalize; 
+                    }
+                }
+                
+            }
+            
+        }
+    }
+
+    .grid-container-larger {
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        padding: 5px;
     }
 }
