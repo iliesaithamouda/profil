@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Data } from './Data.model';
+import { Data } from './data.model';
 import { PortfolioService } from './portfolio.service';
 
 @Component({
