@@ -11,6 +11,9 @@ import { SmoothScrollingDirective } from './smooth-scrolling.directive';
 import { OnscrollDirective } from './_deprecated_onscroll.directive';
 import { HomeComponent } from './home/home.component';
 import { ScrollButtonComponent } from './scroll-button/scroll-button.component';
+import { AboutComponent } from './about/about.component';
+import { ProgressiveBarComponent } from './progressive-bar/progressive-bar.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ScrollButtonComponent } from './scroll-button/scroll-button.component';
     SmoothScrollingDirective,
     OnscrollDirective,
     HomeComponent,
-    ScrollButtonComponent
+    ScrollButtonComponent,
+    AboutComponent,
+    ProgressiveBarComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
