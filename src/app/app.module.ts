@@ -14,6 +14,10 @@ import { ScrollButtonComponent } from './scroll-button/scroll-button.component';
 import { AboutComponent } from './about/about.component';
 import { ProgressiveBarComponent } from './progressive-bar/progressive-bar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { FooterComponent } from './footer/footer.component';
+import { PostsComponent } from './posts/posts.component';
+import { ContactComponent } from './contact/contact.component';
+import { ScrollTopButtonComponent } from './scroll-top-button/scroll-top-button.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     ScrollButtonComponent,
     AboutComponent,
     ProgressiveBarComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    FooterComponent,
+    PostsComponent,
+    ContactComponent,
+    ScrollTopButtonComponent
   ],
   imports: [
     BrowserModule,

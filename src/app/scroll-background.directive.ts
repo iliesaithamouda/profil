@@ -11,7 +11,8 @@ export class ScrollBackgroundDirective {
 
   @HostListener('window:scroll')
   onScroll() {
-    var element : any = this.el.nativeElement; //document.getElementsByClassName('background-pic-m')[0];
+    this.toggleScrollTopButton();
+    var element : any = this.el.nativeElement;
     var backgroundTop = element.scrollTop;
     var backgroundHeight = element.clientHeight;
     var top = window.scrollY;
@@ -19,9 +20,15 @@ export class ScrollBackgroundDirective {
     var yPos = ((top - backgroundTop))/2;
 
     if ( yPos <= backgroundHeight + backgroundTop ) {
-      //element.style.backgroundPosition = '50% ' + yPos + 'px';
       this.renderer.setStyle(element, 'background-position', '50% ' + yPos + 'px');
     }
+  }
+
+  toggleScrollTopButton() {
+    if (window.scrollY > 1000 )
+      this.renderer.addClass(document.getElementById('scrollTopButton'), 'show-scroll-top-button');
+    else 
+      this.renderer.removeClass(document.getElementById('scrollTopButton'), 'show-scroll-top-button');
   }
 
 }
