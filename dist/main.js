@@ -102,7 +102,7 @@ module.exports = "\n<div class=\"box-list\">\n  <div class=\"box\">\n    <h3 cla
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".box-list {\n  display: grid;\n  grid-gap: 40px;\n  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));\n  text-align: left;\n  padding: 20px; }\n  .box-list .box {\n    border-radius: 5px;\n    display: flex;\n    flex-direction: column; }\n  .box-list .box .section-subtitle {\n      color: #333;\n      font-size: 26px; }\n  .box-list .box .description {\n      color: #484848;\n      font-size: 16px;\n      line-height: 26px; }\n  .box-list .box .flex-box-container {\n      display: grid;\n      grid-gap: 10px;\n      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n      grid-row-gap: 20px; }\n  .box-list .box .flex-box-container .flex-box {\n        display: flex;\n        flex-direction: column;\n        justify-self: left; }\n  .box-list .box .flex-box-container .media-icons {\n        font-size: 20px;\n        border: 1px solid black;\n        width: 18px;\n        text-align: center;\n        padding: 10px;\n        border-radius: 24px; }\n  .box-list .box .flex-box-container .media-icons:hover {\n        background-color: #484848;\n        color: white; }\n  .box-list .box .grid-container-min-1-fr {\n      grid-template-columns: repeat(auto-fit, minmax(30px, 40px));\n      margin-top: 20px; }\n  a {\n  color: #666;\n  text-decoration: none; }\n  a:hover {\n  color: #484848;\n  text-decoration: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy96ODU4MzEvRG9jdW1lbnRzL3BlcnNvbmFsL3BlcnNvbmFsV29yay9wcm9maWwvc3JjL2FwcC9hYm91dC9hYm91dC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVJLGFBQWE7RUFDYixjQUFjO0VBQ2QsMkRBQTJEO0VBQzNELGdCQUFnQjtFQUNoQixhQUFhLEVBQUE7RUFOakI7SUFTUSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLHNCQUFzQixFQUFBO0VBWDlCO01BY1ksV0FBVztNQUNYLGVBQWUsRUFBQTtFQWYzQjtNQW1CWSxjQUFjO01BQ2QsZUFBZTtNQUNmLGlCQUFpQixFQUFBO0VBckI3QjtNQXlCWSxhQUFhO01BQ2IsY0FBYztNQUNkLDJEQUEwRDtNQUMxRCxrQkFBa0IsRUFBQTtFQTVCOUI7UUErQmdCLGFBQWE7UUFDYixzQkFBc0I7UUFDdEIsa0JBQWtCLEVBQUE7RUFqQ2xDO1FBcUNnQixlQUFlO1FBQ2YsdUJBQXVCO1FBQ3ZCLFdBQVc7UUFDWCxrQkFBa0I7UUFDbEIsYUFBYTtRQUNiLG1CQUFtQixFQUFBO0VBMUNuQztRQThDZ0IseUJBQXlCO1FBQ3pCLFlBQVksRUFBQTtFQS9DNUI7TUFvRFksMkRBQTBEO01BQzFELGdCQUFnQixFQUFBO0VBT3hCO0VBQ0ksV0FBVztFQUNYLHFCQUFxQixFQUFBO0VBRXpCO0VBQ0ksY0FBYztFQUNkLHFCQUFxQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYm94LWxpc3Qge1xuICAgIC8vIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xuICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgZ3JpZC1nYXA6IDQwcHg7XG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maXQsIG1pbm1heCgzMjVweCwgMWZyKSk7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICBwYWRkaW5nOiAyMHB4O1xuICAgIC5ib3gge1xuICAgICAgICAvLyBib3JkZXI6IDFweCBzb2xpZCAjZmZlMDY2O1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgXG4gICAgICAgIC5zZWN0aW9uLXN1YnRpdGxlIHtcbiAgICAgICAgICAgIGNvbG9yOiAjMzMzO1xuICAgICAgICAgICAgZm9udC1zaXplOiAyNnB4O1xuICAgICAgICB9XG4gICAgXG4gICAgICAgIC5kZXNjcmlwdGlvbiB7XG4gICAgICAgICAgICBjb2xvcjogIzQ4NDg0ODtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyNnB4O1xuICAgICAgICB9XG4gICAgXG4gICAgICAgIC5mbGV4LWJveC1jb250YWluZXIge1xuICAgICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgICAgIGdyaWQtZ2FwOiAxMHB4O1xuICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maXQsbWlubWF4KDIwMHB4LCAxZnIpKTtcbiAgICAgICAgICAgIGdyaWQtcm93LWdhcDogMjBweDtcblxuICAgICAgICAgICAgLmZsZXgtYm94IHtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBsZWZ0O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubWVkaWEtaWNvbnMge1xuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICAgICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcbiAgICAgICAgICAgICAgICB3aWR0aDogMThweDtcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgcGFkZGluZzogMTBweDtcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAyNHB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubWVkaWEtaWNvbnM6aG92ZXIge1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM0ODQ4NDg7XG4gICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG5cbiAgICAgICAgLmdyaWQtY29udGFpbmVyLW1pbi0xLWZyIHtcbiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZml0LG1pbm1heCgzMHB4LCA0MHB4KSk7XG4gICAgICAgICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgXG4gICAgfVxuICB9XG5cbiAgICBhIHtcbiAgICAgICAgY29sb3I6ICM2NjY7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICB9XG4gICAgYTpob3ZlciB7XG4gICAgICAgIGNvbG9yOiAjNDg0ODQ4O1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgfVxuICAiXX0= */"
+module.exports = ".box-list {\n  display: grid;\n  grid-gap: 40px;\n  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));\n  text-align: left;\n  padding: 20px; }\n  .box-list .box {\n    border-radius: 5px;\n    display: flex;\n    flex-direction: column; }\n  .box-list .box .section-subtitle {\n      color: #333;\n      font-size: 26px; }\n  .box-list .box .description {\n      color: #484848;\n      font-size: 16px;\n      line-height: 26px; }\n  .box-list .box .flex-box-container {\n      display: grid;\n      grid-gap: 10px;\n      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n      grid-row-gap: 20px; }\n  .box-list .box .flex-box-container .flex-box {\n        display: flex;\n        flex-direction: column;\n        justify-self: left; }\n  .box-list .box .flex-box-container .media-icons {\n        font-size: 20px;\n        border: 1px solid black;\n        width: 18px;\n        text-align: center;\n        padding: 10px;\n        border-radius: 24px; }\n  .box-list .box .flex-box-container .media-icons:hover {\n        background-color: #484848;\n        color: white; }\n  .box-list .box .grid-container-min-1-fr {\n      grid-template-columns: repeat(auto-fit, minmax(30px, 40px));\n      margin-top: 20px; }\n  a {\n  color: #666;\n  text-decoration: none; }\n  a:hover {\n  color: #484848;\n  text-decoration: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy96ODU4MzEvRG9jdW1lbnRzL3BlcnNvbmFsL3BlcnNvbmFsV29yay9wcm9maWwvc3JjL2FwcC9hYm91dC9hYm91dC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVJLGFBQWE7RUFDYixjQUFjO0VBQ2QsMkRBQTJEO0VBQzNELGdCQUFnQjtFQUNoQixhQUFhLEVBQUE7RUFOakI7SUFTUSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLHNCQUFzQixFQUFBO0VBWDlCO01BY1ksV0FBVztNQUNYLGVBQWUsRUFBQTtFQWYzQjtNQW1CWSxjQUFjO01BQ2QsZUFBZTtNQUNmLGlCQUFpQixFQUFBO0VBckI3QjtNQXlCWSxhQUFhO01BQ2IsY0FBYztNQUNkLDJEQUEwRDtNQUMxRCxrQkFBa0IsRUFBQTtFQTVCOUI7UUErQmdCLGFBQWE7UUFDYixzQkFBc0I7UUFDdEIsa0JBQWtCLEVBQUE7RUFqQ2xDO1FBcUNnQixlQUFlO1FBQ2YsdUJBQXVCO1FBQ3ZCLFdBQVc7UUFDWCxrQkFBa0I7UUFDbEIsYUFBYTtRQUNiLG1CQUFtQixFQUFBO0VBMUNuQztRQThDZ0IseUJBQXlCO1FBQ3pCLFlBQVksRUFBQTtFQS9DNUI7TUFvRFksMkRBQTBEO01BQzFELGdCQUFnQixFQUFBO0VBT3hCO0VBQ0ksV0FBVztFQUNYLHFCQUFxQixFQUFBO0VBRXpCO0VBQ0ksY0FBYztFQUNkLHFCQUFxQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYm94LWxpc3Qge1xuICAgIC8vIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xuICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgZ3JpZC1nYXA6IDQwcHg7XG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maXQsIG1pbm1heCgzMjVweCwgMWZyKSk7XG4gICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICBwYWRkaW5nOiAyMHB4O1xuICAgIC5ib3gge1xuICAgICAgICAvLyBib3JkZXI6IDFweCBzb2xpZCAjZmZlMDY2O1xuICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgXG4gICAgICAgIC5zZWN0aW9uLXN1YnRpdGxlIHtcbiAgICAgICAgICAgIGNvbG9yOiAjMzMzO1xuICAgICAgICAgICAgZm9udC1zaXplOiAyNnB4O1xuICAgICAgICB9XG4gICAgXG4gICAgICAgIC5kZXNjcmlwdGlvbiB7XG4gICAgICAgICAgICBjb2xvcjogIzQ4NDg0ODtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyNnB4O1xuICAgICAgICB9XG4gICAgXG4gICAgICAgIC5mbGV4LWJveC1jb250YWluZXIge1xuICAgICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgICAgIGdyaWQtZ2FwOiAxMHB4O1xuICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoYXV0by1maXQsbWlubWF4KDIwMHB4LCAxZnIpKTtcbiAgICAgICAgICAgIGdyaWQtcm93LWdhcDogMjBweDtcblxuICAgICAgICAgICAgLmZsZXgtYm94IHtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBsZWZ0O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubWVkaWEtaWNvbnMge1xuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICAgICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcbiAgICAgICAgICAgICAgICB3aWR0aDogMThweDtcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgcGFkZGluZzogMTBweDtcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAyNHB4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAubWVkaWEtaWNvbnM6aG92ZXIge1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM0ODQ4NDg7XG4gICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG5cbiAgICAgICAgLmdyaWQtY29udGFpbmVyLW1pbi0xLWZyIHtcbiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZml0LG1pbm1heCgzMHB4LCA0MHB4KSk7XG4gICAgICAgICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgXG4gICAgfVxufVxuXG4gICAgYSB7XG4gICAgICAgIGNvbG9yOiAjNjY2O1xuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgfVxuICAgIGE6aG92ZXIge1xuICAgICAgICBjb2xvcjogIzQ4NDg0ODtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgIH1cbiAgIl19 */"
 
 /***/ }),
 
@@ -185,7 +185,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"app\">\n  <app-menu></app-menu>\n  <app-section id=\"Home\" [sectionType]=\"'Home'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-section id=\"About\" [sectionType]=\"'About'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-section id=\"Services\" [sectionType]=\"'Services'\" [backgroundColorClass]=\"'bg-color-medium'\"></app-section>\n  <app-section id=\"Work\" [sectionType]=\"'Work'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-section id=\"Posts\" [sectionType]=\"'Posts'\" [backgroundColorClass]=\"'bg-color-medium'\"></app-section>\n  <app-section id=\"Contact\" [sectionType]=\"'Contact'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-footer></app-footer>\n</div>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"app\">\n  <app-menu></app-menu>\n  <app-section id=\"Home\" [sectionType]=\"'Home'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-section id=\"About\" [sectionType]=\"'About'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-section id=\"Services\" [sectionType]=\"'Services'\" [backgroundColorClass]=\"'bg-color-medium'\"></app-section>\n  <app-section id=\"Work\" [sectionType]=\"'Work'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-section id=\"Posts\" [sectionType]=\"'Posts'\" [backgroundColorClass]=\"'bg-color-medium'\"></app-section>\n  <app-section id=\"Contact\" [sectionType]=\"'Contact'\" [backgroundColorClass]=\"'bg-color-light'\"></app-section>\n  <app-footer></app-footer>\n  <app-scroll-top-button></app-scroll-top-button>\n</div>\n\n"
 
 /***/ }),
 
@@ -216,7 +216,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'cv';
+        this.title = 'Ilyes Ait Hamouda';
     }
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -260,6 +260,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./portfolio/portfolio.component */ "./src/app/portfolio/portfolio.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
 /* harmony import */ var _posts_posts_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./posts/posts.component */ "./src/app/posts/posts.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _scroll_top_button_scroll_top_button_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./scroll-top-button/scroll-top-button.component */ "./src/app/scroll-top-button/scroll-top-button.component.ts");
+
+
 
 
 
@@ -296,7 +300,9 @@ var AppModule = /** @class */ (function () {
                 _progressive_bar_progressive_bar_component__WEBPACK_IMPORTED_MODULE_14__["ProgressiveBarComponent"],
                 _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_15__["PortfolioComponent"],
                 _footer_footer_component__WEBPACK_IMPORTED_MODULE_16__["FooterComponent"],
-                _posts_posts_component__WEBPACK_IMPORTED_MODULE_17__["PostsComponent"]
+                _posts_posts_component__WEBPACK_IMPORTED_MODULE_17__["PostsComponent"],
+                _contact_contact_component__WEBPACK_IMPORTED_MODULE_18__["ContactComponent"],
+                _scroll_top_button_scroll_top_button_component__WEBPACK_IMPORTED_MODULE_19__["ScrollTopButtonComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -308,6 +314,62 @@ var AppModule = /** @class */ (function () {
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/contact/contact.component.html":
+/*!************************************************!*\
+  !*** ./src/app/contact/contact.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"contact-container\">\n    <div class=\"title-container\">\n      <h2>Contact me</h2>\n    </div>\n    <div class=\"grid-container contact-icons\">\n        <div class=\"box contact-form-container\">\n          <div class=\"circle-wrapper\">\n              <i class=\"fas fa-envelope\"></i>\n          </div>\n          <div class=\"label-wrapper\">Email</div>\n          <div class=\"text-wrapper\">iliesaithamouda@outlook.com</div>\n        </div>\n        <div class=\"box contact-form-container\">\n            <div class=\"circle-wrapper\">\n                <i class=\"fas fa-envelope\"></i>\n            </div>\n            <div class=\"label-wrapper\">Phone number</div>\n            <div class=\"text-wrapper\">+1 514-475-4146</div>\n        </div>\n    \n      </div>\n      <div class=\"grid-container contact-form\">\n        <div class=\"box contact-form-container\">\n          <input name=\"name\" type=\"text\" placeholder=\"Name\" />\n        </div>\n        <div class=\"box contact-form-container\">\n          <input name=\"email\" type=\"text\" placeholder=\"Email\" />\n        </div>\n      </div>\n      <div class=\"text-area-container\">\n        <textarea name=\"message\" placeholder=\"Message\"></textarea>\n      </div>\n      <div>\n        <button class=\"send-button\" type=\"submit\">Send Message</button>\n      </div>\n\n</div>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/contact/contact.component.scss":
+/*!************************************************!*\
+  !*** ./src/app/contact/contact.component.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".contact-container {\n  width: 80%;\n  margin: 0 auto;\n  font-size: 15px; }\n  .contact-container .title-container {\n    color: #333; }\n  .contact-container .title-container h2 {\n      position: relative;\n      font-weight: 700;\n      line-height: 43px;\n      padding-bottom: 15px;\n      font-size: 36px;\n      margin: 0px;\n      display: inline-block; }\n  .contact-container .title-container h2::after {\n        content: '';\n        position: absolute;\n        background-color: #444444;\n        height: 2px;\n        left: 4px;\n        bottom: 0px;\n        width: 50px;\n        text-align: center; }\n  .contact-container .grid-container {\n    display: grid;\n    grid-column-gap: 70px;\n    grid-row-gap: 40px;\n    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));\n    text-align: left;\n    padding: 40px 0px; }\n  .contact-container .grid-container .box {\n      display: flex;\n      flex-direction: column; }\n  .contact-container .grid-container .box input {\n        width: 100%;\n        border: 1px solid #ddd;\n        color: #232323;\n        padding: 8px 16px;\n        font-size: 15px; }\n  .contact-container .grid-container .box .circle-wrapper {\n        width: 50px;\n        height: 50px;\n        background-color: #000000;\n        color: #FFFFFF;\n        text-align: center;\n        line-height: 50px;\n        border-radius: 30px; }\n  .contact-container .text-area-container {\n    margin-bottom: 40px; }\n  .contact-container .text-area-container textarea {\n      resize: none;\n      width: 100%;\n      height: 190px;\n      padding: 8px 16px;\n      color: #232323;\n      border: 1px solid #ddd;\n      font-size: 15px; }\n  .contact-container .send-button {\n    margin: 0 auto;\n    padding: 8px 20px;\n    font-size: 16px;\n    font-weight: 700;\n    border: 2px solid #333;\n    outline: none;\n    background-color: #333;\n    color: #fafafa;\n    cursor: pointer; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy96ODU4MzEvRG9jdW1lbnRzL3BlcnNvbmFsL3BlcnNvbmFsV29yay9wcm9maWwvc3JjL2FwcC9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDSSxVQUFTO0VBQ1QsY0FBYTtFQUNiLGVBQWUsRUFBQTtFQUhuQjtJQU1RLFdBQVcsRUFBQTtFQU5uQjtNQVFZLGtCQUFrQjtNQUNsQixnQkFBZ0I7TUFDaEIsaUJBQWlCO01BQ2pCLG9CQUFvQjtNQUNwQixlQUFlO01BQ2YsV0FBVztNQUNYLHFCQUFxQixFQUFBO0VBZGpDO1FBZ0JnQixXQUFXO1FBQ1gsa0JBQWtCO1FBQ2xCLHlCQUFpQztRQUNqQyxXQUFXO1FBQ1gsU0FBUztRQUNULFdBQVc7UUFDWCxXQUFXO1FBQ1gsa0JBQWtCLEVBQUE7RUF2QmxDO0lBNkJRLGFBQWE7SUFDYixxQkFBcUI7SUFDckIsa0JBQWtCO0lBQ2xCLDJEQUEyRDtJQUMzRCxnQkFBZ0I7SUFDaEIsaUJBQWlCLEVBQUE7RUFsQ3pCO01Bb0NZLGFBQWE7TUFDYixzQkFBc0IsRUFBQTtFQXJDbEM7UUF1Q2dCLFdBQVc7UUFDWCxzQkFBc0I7UUFDdEIsY0FBYztRQUNkLGlCQUFpQjtRQUNqQixlQUFlLEVBQUE7RUEzQy9CO1FBK0NnQixXQUFXO1FBQ1gsWUFBWTtRQUNaLHlCQUF5QjtRQUN6QixjQUFjO1FBQ2Qsa0JBQWtCO1FBQ2xCLGlCQUFpQjtRQUNqQixtQkFBbUIsRUFBQTtFQXJEbkM7SUFtRVEsbUJBQW1CLEVBQUE7RUFuRTNCO01BMkRZLFlBQVk7TUFDWixXQUFXO01BQ1gsYUFBYTtNQUNiLGlCQUFpQjtNQUNqQixjQUFjO01BQ2Qsc0JBQXNCO01BQ3RCLGVBQWUsRUFBQTtFQWpFM0I7SUF1RVEsY0FBYztJQUNkLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLHNCQUFzQjtJQUN0QixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLGNBQWM7SUFDZCxlQUFlLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5jb250YWN0LWNvbnRhaW5lciB7XG4gICAgd2lkdGg6ODAlO1xuICAgIG1hcmdpbjowIGF1dG87XG4gICAgZm9udC1zaXplOiAxNXB4O1xuXG4gICAgLnRpdGxlLWNvbnRhaW5lciB7XG4gICAgICAgIGNvbG9yOiAjMzMzO1xuICAgICAgICAmIGgyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG4gICAgICAgICAgICBsaW5lLWhlaWdodDogNDNweDtcbiAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAxNXB4O1xuICAgICAgICAgICAgZm9udC1zaXplOiAzNnB4O1xuICAgICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICAmOjphZnRlciB7XG4gICAgICAgICAgICAgICAgY29udGVudDogJyc7XG4gICAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig2OCwgNjgsIDY4KTtcbiAgICAgICAgICAgICAgICBoZWlnaHQ6IDJweDtcbiAgICAgICAgICAgICAgICBsZWZ0OiA0cHg7XG4gICAgICAgICAgICAgICAgYm90dG9tOiAwcHg7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDUwcHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgfVxuICAgIC5ncmlkLWNvbnRhaW5lciB7XG4gICAgXG4gICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgIGdyaWQtY29sdW1uLWdhcDogNzBweDtcbiAgICAgICAgZ3JpZC1yb3ctZ2FwOiA0MHB4O1xuICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdChhdXRvLWZpdCwgbWlubWF4KDIyNXB4LCAxZnIpKTtcbiAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICAgICAgcGFkZGluZzogNDBweCAwcHg7XG4gICAgICAgIC5ib3gge1xuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IFxuICAgICAgICAgICAgJiBpbnB1dCB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2RkZDtcbiAgICAgICAgICAgICAgICBjb2xvcjogIzIzMjMyMztcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiA4cHggMTZweDtcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDE1cHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5jaXJjbGUtd3JhcHBlciB7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDUwcHg7XG4gICAgICAgICAgICAgICAgaGVpZ2h0OiA1MHB4O1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7XG4gICAgICAgICAgICAgICAgY29sb3I6ICNGRkZGRkY7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiA1MHB4O1xuICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDMwcHg7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICB9XG4gICAgLnRleHQtYXJlYS1jb250YWluZXIge1xuICAgICAgICAmIHRleHRhcmVhIHtcbiAgICAgICAgICAgIHJlc2l6ZTogbm9uZTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgaGVpZ2h0OiAxOTBweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDhweCAxNnB4O1xuICAgICAgICAgICAgY29sb3I6ICMyMzIzMjM7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjZGRkO1xuICAgICAgICAgICAgZm9udC1zaXplOiAxNXB4O1xuICAgICAgICB9XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDQwcHg7XG4gICAgfVxuICAgIFxuICAgIC5zZW5kLWJ1dHRvbiB7XG4gICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICBwYWRkaW5nOiA4cHggMjBweDtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICBib3JkZXI6IDJweCBzb2xpZCAjMzMzO1xuICAgICAgICBvdXRsaW5lOiBub25lO1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzO1xuICAgICAgICBjb2xvcjogI2ZhZmFmYTtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIH1cbn1cblxuIl19 */"
+
+/***/ }),
+
+/***/ "./src/app/contact/contact.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/contact/contact.component.ts ***!
+  \**********************************************/
+/*! exports provided: ContactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var ContactComponent = /** @class */ (function () {
+    function ContactComponent() {
+    }
+    ContactComponent.prototype.ngOnInit = function () {
+    };
+    ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-contact',
+            template: __webpack_require__(/*! ./contact.component.html */ "./src/app/contact/contact.component.html"),
+            styles: [__webpack_require__(/*! ./contact.component.scss */ "./src/app/contact/contact.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], ContactComponent);
+    return ContactComponent;
 }());
 
 
@@ -446,7 +508,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div [@animateStickyMenu]=\"menuState\" class=\"menu-container\">\n    <div [@animateColorMenu]=\"menuState\" class=\"menu-grid-container\">\n        <div class=\"logo-container\"><img src=\"../../assets/logo.svg\"></div>\n        <div *ngFor=\"let menuItem of menu.items\">\n          <a appSmoothScrolling name=\"{{menuItem.label}}\" class=\"menu-item\" >{{ menuItem.label.toUpperCase() }}</a>\n        </div>\n      </div>\n</div>\n\n"
+module.exports = "<div [@animateStickyMenu]=\"menuState\" class=\"menu-container\">\n    <div [@animateColorMenu]=\"menuState\" class=\"menu-grid-container\">\n        <div class=\"logo-container\"><img src=\"../../assets/logo.svg\"></div>\n        <div *ngFor=\"let menuItem of menu.items\">\n          <span appSmoothScrolling attr.data-target-link=\"{{menuItem.label}}\" class=\"menu-item\" >{{ menuItem.label.toUpperCase() }}</span>\n        </div>\n      </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -568,7 +630,7 @@ var Menu = /** @class */ (function () {
         this.items.push({ label: 'About', link: '/about' });
         this.items.push({ label: 'Services', link: '/services' });
         this.items.push({ label: 'Work', link: '/work' });
-        this.items.push({ label: 'Clients', link: '/clients' });
+        this.items.push({ label: 'Posts', link: '/posts' });
         this.items.push({ label: 'Contact', link: '/contact' });
     }
     return Menu;
@@ -756,7 +818,7 @@ var PortfolioService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"posts-container\">\n    <div class=\"title-container\">\n      <h2>{{data.title}}</h2>\n    </div>\n    <div class=\"grid-container\">\n        <ng-template ngFor let-item [ngForOf]=\"data.items\" let-i=\"index\" let-c=\"count\">\n          <div class=\"box\" class=\"image-container\">\n            <img class=\"image\" [src]=\"item.imgPath\" />\n            <div class=\"overlay-container effect\">\n                <div class=\"border-box\">\n                    <div class=\"title\">{{ item.title }}</div>\n                </div>\n            </div>\n          </div>\n        </ng-template>\n    </div>\n  </div>"
+module.exports = "<div class=\"posts-container\">\n    this is a post section \n  </div>"
 
 /***/ }),
 
@@ -922,15 +984,21 @@ var ScrollBackgroundDirective = /** @class */ (function () {
         this.renderer = renderer;
     }
     ScrollBackgroundDirective.prototype.onScroll = function () {
-        var element = this.el.nativeElement; //document.getElementsByClassName('background-pic-m')[0];
+        this.toggleScrollTopButton();
+        var element = this.el.nativeElement;
         var backgroundTop = element.scrollTop;
         var backgroundHeight = element.clientHeight;
         var top = window.scrollY;
         var yPos = ((top - backgroundTop)) / 2;
         if (yPos <= backgroundHeight + backgroundTop) {
-            //element.style.backgroundPosition = '50% ' + yPos + 'px';
             this.renderer.setStyle(element, 'background-position', '50% ' + yPos + 'px');
         }
+    };
+    ScrollBackgroundDirective.prototype.toggleScrollTopButton = function () {
+        if (window.scrollY > 1000)
+            this.renderer.addClass(document.getElementById('scrollTopButton'), 'show-scroll-top-button');
+        else
+            this.renderer.removeClass(document.getElementById('scrollTopButton'), 'show-scroll-top-button');
     };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])('window:scroll'),
@@ -1037,6 +1105,62 @@ var ScrollButtonComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/scroll-top-button/scroll-top-button.component.html":
+/*!********************************************************************!*\
+  !*** ./src/app/scroll-top-button/scroll-top-button.component.html ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"scrollTopButton\" appSmoothScrolling data-target-link=\"Home\" class=\"scroll-top-container effect show-scroll-top-button\">\n    <i class=\"fa fa-angle-up\"></i>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/scroll-top-button/scroll-top-button.component.scss":
+/*!********************************************************************!*\
+  !*** ./src/app/scroll-top-button/scroll-top-button.component.scss ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".scroll-top-container {\n  display: none;\n  position: fixed;\n  width: 40px;\n  height: 40px;\n  background-color: #000000;\n  border: 2px solid #000000;\n  right: 25px;\n  bottom: 25px;\n  font-size: 28px;\n  line-height: 38px;\n  text-align: center;\n  z-index: 5;\n  color: #FFFFFF;\n  cursor: pointer; }\n  .scroll-top-container:hover {\n    background-color: #FFFFFF;\n    color: #000000; }\n  .show-scroll-top-button {\n  display: block; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy96ODU4MzEvRG9jdW1lbnRzL3BlcnNvbmFsL3BlcnNvbmFsV29yay9wcm9maWwvc3JjL2FwcC9zY3JvbGwtdG9wLWJ1dHRvbi9zY3JvbGwtdG9wLWJ1dHRvbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQWE7RUFDYixlQUFlO0VBQ2YsV0FBVztFQUNYLFlBQVk7RUFDWix5QkFBeUI7RUFDekIseUJBQXlCO0VBQ3pCLFdBQVU7RUFDVixZQUFZO0VBQ1osZUFBZTtFQUNmLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsVUFBVTtFQUNWLGNBQWM7RUFDZCxlQUFlLEVBQUE7RUFkbkI7SUFnQlEseUJBQXlCO0lBQ3pCLGNBQWMsRUFBQTtFQUl0QjtFQUNJLGNBQWMsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3Njcm9sbC10b3AtYnV0dG9uL3Njcm9sbC10b3AtYnV0dG9uLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNjcm9sbC10b3AtY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB3aWR0aDogNDBweDtcbiAgICBoZWlnaHQ6IDQwcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDAwMDtcbiAgICBib3JkZXI6IDJweCBzb2xpZCAjMDAwMDAwO1xuICAgIHJpZ2h0OjI1cHg7XG4gICAgYm90dG9tOiAyNXB4O1xuICAgIGZvbnQtc2l6ZTogMjhweDtcbiAgICBsaW5lLWhlaWdodDogMzhweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgei1pbmRleDogNTtcbiAgICBjb2xvcjogI0ZGRkZGRjtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgJjpob3ZlciB7XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7XG4gICAgICAgIGNvbG9yOiAjMDAwMDAwO1xuICAgIH1cbn1cblxuLnNob3ctc2Nyb2xsLXRvcC1idXR0b24ge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/scroll-top-button/scroll-top-button.component.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/scroll-top-button/scroll-top-button.component.ts ***!
+  \******************************************************************/
+/*! exports provided: ScrollTopButtonComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ScrollTopButtonComponent", function() { return ScrollTopButtonComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var ScrollTopButtonComponent = /** @class */ (function () {
+    function ScrollTopButtonComponent() {
+    }
+    ScrollTopButtonComponent.prototype.ngOnInit = function () {
+    };
+    ScrollTopButtonComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-scroll-top-button',
+            template: __webpack_require__(/*! ./scroll-top-button.component.html */ "./src/app/scroll-top-button/scroll-top-button.component.html"),
+            styles: [__webpack_require__(/*! ./scroll-top-button.component.scss */ "./src/app/scroll-top-button/scroll-top-button.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], ScrollTopButtonComponent);
+    return ScrollTopButtonComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/section/section.component.html":
 /*!************************************************!*\
   !*** ./src/app/section/section.component.html ***!
@@ -1044,7 +1168,7 @@ var ScrollButtonComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div scrollableBackgroundImage class=\"section-container {{backgroundColorClass}}\" [ngClass]=\"{'background-pic-m low-opacity' : sectionType === 'Home'}\">\n  <div *ngIf=\"sectionType === 'Home'\" class=\"overlay-shadow\"></div>\n  <div class=\"section\">\n    <app-home       *ngIf=\"sectionType === 'Home'\"></app-home>\n    <app-about      *ngIf=\"sectionType === 'About'\"></app-about>\n    <app-portfolio  *ngIf=\"sectionType === 'Services'\" [layoutType]=\"sectionType\"></app-portfolio>\n    <app-portfolio  *ngIf=\"sectionType === 'Work'\" [layoutType]=\"sectionType\"></app-portfolio>\n    <app-posts *ngIf=\"sectionType === 'Posts'\"></app-posts>\n\n    <!-- <ng-template [ngIf]=\"sectionType !== 'Home'\">\n        <h1>\n            I'm a developer\n          </h1>\n          <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n          <router-outlet></router-outlet>\n    </ng-template> -->\n  </div>\n</div>\n\n"
+module.exports = "<div scrollableBackgroundImage class=\"section-container {{backgroundColorClass}}\" [ngClass]=\"{'background-pic-m low-opacity' : sectionType === 'Home'}\">\n  <div *ngIf=\"sectionType === 'Home'\" class=\"overlay-shadow\"></div>\n  <div class=\"section\">\n    <app-home       *ngIf=\"sectionType === 'Home'\"></app-home>\n    <app-about      *ngIf=\"sectionType === 'About'\"></app-about>\n    <app-portfolio  *ngIf=\"sectionType === 'Services'\" [layoutType]=\"sectionType\"></app-portfolio>\n    <app-portfolio  *ngIf=\"sectionType === 'Work'\" [layoutType]=\"sectionType\"></app-portfolio>\n    <app-posts      *ngIf=\"sectionType === 'Posts'\"></app-posts>\n    <app-contact    *ngIf=\"sectionType === 'Contact'\"></app-contact>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -1120,7 +1244,11 @@ var SmoothScrollingDirective = /** @class */ (function () {
         this.el = el;
     }
     SmoothScrollingDirective.prototype.onclick = function () {
-        var id = this.el.nativeElement.attributes.name ? this.el.nativeElement.attributes.name.value : this.el.nativeElement.attributes.title.value;
+        var id = this.el.nativeElement.dataset.targetLink;
+        if (!id) {
+            var attributes = this.el.nativeElement.attributes;
+            id = attributes.name ? attributes.name.value : attributes.title.value;
+        }
         var elementToScrollTo = document.getElementById(id);
         elementToScrollTo.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
     };
