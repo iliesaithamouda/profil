@@ -56,32 +56,32 @@ export class PortfolioService {
 
   getWorkItems(): Array<{imgPath: string; title: string; description: string}> {
     return [{
-        imgPath : '../../assets/test.jpg', 
+        imgPath : './assets/test.jpg', 
         title: 'My first web site', 
         description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
       },
       {
-        imgPath : '../../assets/test.jpg', 
+        imgPath : './assets/test.jpg', 
         title: 'web development', 
         description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
       },
       {
-        imgPath : '../../assets/test.jpg', 
+        imgPath : './assets/test.jpg', 
         title: 'web development', 
         description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
       },
       {
-        imgPath : '../../assets/test.jpg', 
+        imgPath : './assets/test.jpg', 
         title: 'web development', 
         description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
       },
       {
-        imgPath : '../../assets/test.jpg', 
+        imgPath : './assets/test.jpg', 
         title: 'web development', 
         description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
       },
       {
-        imgPath : '../../assets/test.jpg', 
+        imgPath : './assets/test.jpg', 
         title: 'web development', 
         description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
       },
