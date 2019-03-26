@@ -246,22 +246,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./menu/menu.component */ "./src/app/menu/menu.component.ts");
-/* harmony import */ var _section_section_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./section/section.component */ "./src/app/section/section.component.ts");
-/* harmony import */ var _scroll_background_directive__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./scroll-background.directive */ "./src/app/scroll-background.directive.ts");
-/* harmony import */ var _smooth_scrolling_directive__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./smooth-scrolling.directive */ "./src/app/smooth-scrolling.directive.ts");
-/* harmony import */ var _deprecated_onscroll_directive__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./_deprecated_onscroll.directive */ "./src/app/_deprecated_onscroll.directive.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _scroll_button_scroll_button_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./scroll-button/scroll-button.component */ "./src/app/scroll-button/scroll-button.component.ts");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
-/* harmony import */ var _progressive_bar_progressive_bar_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./progressive-bar/progressive-bar.component */ "./src/app/progressive-bar/progressive-bar.component.ts");
-/* harmony import */ var _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./portfolio/portfolio.component */ "./src/app/portfolio/portfolio.component.ts");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
-/* harmony import */ var _posts_posts_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./posts/posts.component */ "./src/app/posts/posts.component.ts");
-/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
-/* harmony import */ var _scroll_top_button_scroll_top_button_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./scroll-top-button/scroll-top-button.component */ "./src/app/scroll-top-button/scroll-top-button.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./menu/menu.component */ "./src/app/menu/menu.component.ts");
+/* harmony import */ var _section_section_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./section/section.component */ "./src/app/section/section.component.ts");
+/* harmony import */ var _scroll_background_directive__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scroll-background.directive */ "./src/app/scroll-background.directive.ts");
+/* harmony import */ var _smooth_scrolling_directive__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./smooth-scrolling.directive */ "./src/app/smooth-scrolling.directive.ts");
+/* harmony import */ var _deprecated_onscroll_directive__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./_deprecated_onscroll.directive */ "./src/app/_deprecated_onscroll.directive.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _scroll_button_scroll_button_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./scroll-button/scroll-button.component */ "./src/app/scroll-button/scroll-button.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _progressive_bar_progressive_bar_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./progressive-bar/progressive-bar.component */ "./src/app/progressive-bar/progressive-bar.component.ts");
+/* harmony import */ var _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./portfolio/portfolio.component */ "./src/app/portfolio/portfolio.component.ts");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _posts_posts_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./posts/posts.component */ "./src/app/posts/posts.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _scroll_top_button_scroll_top_button_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./scroll-top-button/scroll-top-button.component */ "./src/app/scroll-top-button/scroll-top-button.component.ts");
+
 
 
 
@@ -288,29 +290,31 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-                _menu_menu_component__WEBPACK_IMPORTED_MODULE_6__["MenuComponent"],
-                _section_section_component__WEBPACK_IMPORTED_MODULE_7__["SectionComponent"],
-                _scroll_background_directive__WEBPACK_IMPORTED_MODULE_8__["ScrollBackgroundDirective"],
-                _smooth_scrolling_directive__WEBPACK_IMPORTED_MODULE_9__["SmoothScrollingDirective"],
-                _deprecated_onscroll_directive__WEBPACK_IMPORTED_MODULE_10__["OnscrollDirective"],
-                _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
-                _scroll_button_scroll_button_component__WEBPACK_IMPORTED_MODULE_12__["ScrollButtonComponent"],
-                _about_about_component__WEBPACK_IMPORTED_MODULE_13__["AboutComponent"],
-                _progressive_bar_progressive_bar_component__WEBPACK_IMPORTED_MODULE_14__["ProgressiveBarComponent"],
-                _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_15__["PortfolioComponent"],
-                _footer_footer_component__WEBPACK_IMPORTED_MODULE_16__["FooterComponent"],
-                _posts_posts_component__WEBPACK_IMPORTED_MODULE_17__["PostsComponent"],
-                _contact_contact_component__WEBPACK_IMPORTED_MODULE_18__["ContactComponent"],
-                _scroll_top_button_scroll_top_button_component__WEBPACK_IMPORTED_MODULE_19__["ScrollTopButtonComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+                _menu_menu_component__WEBPACK_IMPORTED_MODULE_7__["MenuComponent"],
+                _section_section_component__WEBPACK_IMPORTED_MODULE_8__["SectionComponent"],
+                _scroll_background_directive__WEBPACK_IMPORTED_MODULE_9__["ScrollBackgroundDirective"],
+                _smooth_scrolling_directive__WEBPACK_IMPORTED_MODULE_10__["SmoothScrollingDirective"],
+                _deprecated_onscroll_directive__WEBPACK_IMPORTED_MODULE_11__["OnscrollDirective"],
+                _home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"],
+                _scroll_button_scroll_button_component__WEBPACK_IMPORTED_MODULE_13__["ScrollButtonComponent"],
+                _about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"],
+                _progressive_bar_progressive_bar_component__WEBPACK_IMPORTED_MODULE_15__["ProgressiveBarComponent"],
+                _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_16__["PortfolioComponent"],
+                _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
+                _posts_posts_component__WEBPACK_IMPORTED_MODULE_18__["PostsComponent"],
+                _contact_contact_component__WEBPACK_IMPORTED_MODULE_19__["ContactComponent"],
+                _scroll_top_button_scroll_top_button_component__WEBPACK_IMPORTED_MODULE_20__["ScrollTopButtonComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"]
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -327,7 +331,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"contact-container\">\n    <div class=\"title-container\">\n      <h2>Contact me</h2>\n    </div>\n    <div class=\"grid-container contact-icons\">\n        <div class=\"box contact-form-container\">\n          <div class=\"circle-wrapper\">\n              <i class=\"fas fa-envelope\"></i>\n          </div>\n          <div class=\"label-wrapper\">Email</div>\n          <div class=\"text-wrapper\">iliesaithamouda@outlook.com</div>\n        </div>\n        <div class=\"box contact-form-container\">\n            <div class=\"circle-wrapper\">\n                <i class=\"fas fa-envelope\"></i>\n            </div>\n            <div class=\"label-wrapper\">Phone number</div>\n            <div class=\"text-wrapper\">+1 514-475-4146</div>\n        </div>\n    \n      </div>\n      <div class=\"grid-container contact-form\">\n        <div class=\"box contact-form-container\">\n          <input name=\"name\" type=\"text\" placeholder=\"Name\" />\n        </div>\n        <div class=\"box contact-form-container\">\n          <input name=\"email\" type=\"text\" placeholder=\"Email\" />\n        </div>\n      </div>\n      <div class=\"text-area-container\">\n        <textarea name=\"message\" placeholder=\"Message\"></textarea>\n      </div>\n      <div>\n        <button class=\"send-button\" type=\"submit\">Send Message</button>\n      </div>\n\n</div>\n\n"
+module.exports = "<div class=\"contact-container\">\n    <div class=\"title-container\">\n      <h2>Contact me</h2>\n    </div>\n    <div class=\"grid-container contact-icons\">\n      <div class=\"box contact-form-container\">\n        <div class=\"circle-wrapper\">\n            <i class=\"fas fa-envelope\"></i>\n        </div>\n        <div class=\"label-wrapper\">Email</div>\n        <div class=\"text-wrapper\">iliesaithamouda@outlook.com</div>\n      </div>\n      <div class=\"box contact-form-container\">\n          <div class=\"circle-wrapper\">\n              <i class=\"fas fa-envelope\"></i>\n          </div>\n          <div class=\"label-wrapper\">Phone number</div>\n          <div class=\"text-wrapper\">+1 514-475-4146</div>\n      </div>\n  \n    </div>\n    <div [formGroup]=\"contactForm\" (ngSubmit)=\"submitForm()\" class=\"form-group\">\n      <div class=\"grid-container contact-form\">\n        <div class=\"box contact-form-container\">\n          <input name=\"name\" formControlName=\"name\" type=\"text\" placeholder=\"Name\" />\n          <div *ngIf=\"contactF.name.errors\" class=\"invalid-feedback\">\n              <div *ngIf=\"contactF.name.errors.required\">Name is required</div>\n          </div>\n        </div>\n        <div class=\"box contact-form-container\">\n          <input name=\"email\" formControlName=\"email\" type=\"text\" placeholder=\"Email\" />\n          <div *ngIf=\"contactF.email.errors\" class=\"invalid-feedback\">\n              <div *ngIf=\"contactF.email.errors.required\">Email is required</div>\n          </div>\n        </div>\n      </div>\n      <div class=\"text-area-container\">\n        <textarea formControlName=\"message\" name=\"message\" placeholder=\"Message\"></textarea>\n        <div *ngIf=\"contactF.message.errors\" class=\"invalid-feedback\">\n            <div *ngIf=\"contactF.message.errors.required\">Message is required</div>\n        </div>\n      </div>\n      <div>\n        <button class=\"send-button\" type=\"submit\">Send Message</button>\n      </div>\n    </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -354,20 +358,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+
 
 
 var ContactComponent = /** @class */ (function () {
-    function ContactComponent() {
+    function ContactComponent(fb) {
+        this.fb = fb;
     }
     ContactComponent.prototype.ngOnInit = function () {
+        this.contactForm = this.fb.group({
+            name: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            email: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            message: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+        });
     };
+    ContactComponent.prototype.submitForm = function () {
+        if (this.contactForm.invalid) {
+            return;
+        }
+        console.log('trying to submit a contact form');
+    };
+    Object.defineProperty(ContactComponent.prototype, "contactF", {
+        get: function () {
+            return this.contactForm.controls;
+        },
+        enumerable: true,
+        configurable: true
+    });
     ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-contact',
             template: __webpack_require__(/*! ./contact.component.html */ "./src/app/contact/contact.component.html"),
             styles: [__webpack_require__(/*! ./contact.component.scss */ "./src/app/contact/contact.component.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]])
     ], ContactComponent);
     return ContactComponent;
 }());
@@ -439,7 +464,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"profile-pic-container\">\n  <img src=\"../../assets/deadpool.png\" alt=\"profil-picture\"/>\n</div>\n<div class=\"introduction-container\">\n  <h1>Hi, I'm Ilyes</h1>\n  <span class=\"introduction-phrase\"></span>\n</div>\n<app-scroll-button></app-scroll-button>\n"
+module.exports = "<div class=\"profile-pic-container\">\n  <img src=\"./assets/deadpool.png\" alt=\"profil-picture\"/>\n</div>\n<div class=\"introduction-container\">\n  <h1>Hi, I'm Ilyes</h1>\n  <span class=\"introduction-phrase\"></span>\n</div>\n<app-scroll-button></app-scroll-button>\n"
 
 /***/ }),
 
@@ -508,7 +533,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div [@animateStickyMenu]=\"menuState\" class=\"menu-container\">\n    <div [@animateColorMenu]=\"menuState\" class=\"menu-grid-container\">\n        <div class=\"logo-container\"><img src=\"../../assets/logo.svg\"></div>\n        <div *ngFor=\"let menuItem of menu.items\">\n          <span appSmoothScrolling attr.data-target-link=\"{{menuItem.label}}\" class=\"menu-item\" >{{ menuItem.label.toUpperCase() }}</span>\n        </div>\n      </div>\n</div>\n\n"
+module.exports = "<div [@animateStickyMenu]=\"menuState\" class=\"menu-container\">\n    <div [@animateColorMenu]=\"menuState\" class=\"menu-grid-container\">\n        <div class=\"logo-container\"><img src=\"./assets/logo.svg\"></div>\n        <div *ngFor=\"let menuItem of menu.items\">\n          <span appSmoothScrolling attr.data-target-link=\"{{menuItem.label}}\" class=\"menu-item\" >{{ menuItem.label.toUpperCase() }}</span>\n        </div>\n      </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -767,32 +792,32 @@ var PortfolioService = /** @class */ (function () {
     };
     PortfolioService.prototype.getWorkItems = function () {
         return [{
-                imgPath: '../../assets/test.jpg',
+                imgPath: './assets/test.jpg',
                 title: 'My first web site',
                 description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
             },
             {
-                imgPath: '../../assets/test.jpg',
+                imgPath: './assets/test.jpg',
                 title: 'web development',
                 description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
             },
             {
-                imgPath: '../../assets/test.jpg',
+                imgPath: './assets/test.jpg',
                 title: 'web development',
                 description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
             },
             {
-                imgPath: '../../assets/test.jpg',
+                imgPath: './assets/test.jpg',
                 title: 'web development',
                 description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
             },
             {
-                imgPath: '../../assets/test.jpg',
+                imgPath: './assets/test.jpg',
                 title: 'web development',
                 description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
             },
             {
-                imgPath: '../../assets/test.jpg',
+                imgPath: './assets/test.jpg',
                 title: 'web development',
                 description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
             },
@@ -1112,7 +1137,7 @@ var ScrollButtonComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"scrollTopButton\" appSmoothScrolling data-target-link=\"Home\" class=\"scroll-top-container effect show-scroll-top-button\">\n    <i class=\"fa fa-angle-up\"></i>\n</div>"
+module.exports = "<div id=\"scrollTopButton\" appSmoothScrolling data-target-link=\"Home\" class=\"scroll-top-container effect\">\n    <i class=\"fa fa-angle-up\"></i>\n</div>"
 
 /***/ }),
 
