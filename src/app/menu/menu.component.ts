@@ -29,10 +29,11 @@ import { trigger,state,style,animate,transition } from '@angular/animations';
     trigger('animateColorMenu', [
       // ...
       state('block', style({
-        color: 'white'
+        color: 'rgb(221, 221, 221)'
       })),
       state('fixed', style({
-        color: 'rgb(35, 35, 35)'
+        color: 'rgb(35, 35, 35)',
+        borderBottom: '1px solid #f0f0f0'
       })),
       transition('block => fixed', [
         animate('0.3s')
@@ -47,6 +48,7 @@ export class MenuComponent implements OnInit {
 
   public menu: Menu;
   public menuState: string = 'block'; // 'fixed'
+  toggleMenu: boolean = false;
 
 
   @HostListener('window:scroll', ['$event'])

@@ -1,10 +1,15 @@
 <header [@animateStickyMenu]="menuState" class="menu-container">
   <nav [@animateColorMenu]="menuState" class="menu-grid-container">
     <div class="logo-container"><img src="./assets/logo.svg"></div>
-    <div class="ham-menu"><i class="fas fa-bars"></i></div>
+    <div (click)="toggleMenu = !toggleMenu" class="ham-menu"><i class="fas fa-bars"></i></div>
     <div class="menu-item-container" *ngFor="let menuItem of menu.items">
       <span appSmoothScrolling attr.data-target-link="{{menuItem.label}}" class="menu-item" >{{ menuItem.label.toUpperCase() }}</span>
     </div>
   </nav>
+  <div [@animateColorMenu]="menuState" class="menu-items-mobile" [ngClass]="{'block' : toggleMenu, 'hidden': !toggleMenu}">
+    <div (click)="toggleMenu = !toggleMenu" class="menu-item-container-mobile menu-item" *ngFor="let menuItem of menu.items" appSmoothScrolling attr.data-target-link="{{menuItem.label}}">
+      {{ menuItem.label.toUpperCase() }}
+    </div>
+  </div>
 </header>
 
