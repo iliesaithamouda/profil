@@ -3,14 +3,14 @@
       <h2>Contact me</h2>
     </div>
     <div class="grid-container contact-icons">
-      <div class="box contact-form-container">
+      <div class="box box-glue contact-form-container">
         <div class="circle-wrapper">
             <i class="fas fa-envelope"></i>
         </div>
         <div class="label-wrapper">Email</div>
         <div class="text-wrapper">iliesaithamouda@outlook.com</div>
       </div>
-      <div class="box contact-form-container">
+      <div class="box box-glue contact-form-container">
           <div class="circle-wrapper">
               <i class="fas fa-envelope"></i>
           </div>
@@ -22,22 +22,22 @@
     <div [formGroup]="contactForm" (ngSubmit)="submitForm()" class="form-group">
       <div class="grid-container contact-form">
         <div class="box contact-form-container">
-          <input name="name" formControlName="name" type="text" placeholder="Name" />
-          <div *ngIf="contactF.name.errors" class="invalid-feedback">
-              <div *ngIf="contactF.name.errors.required">Name is required</div>
+          <input [ngClass]="{'error-input': contactF.name.errors.required && contactF.name.dirty }" name="name" formControlName="name" type="text" placeholder="Name" />
+          <div *ngIf="contactF.name.errors.required && contactF.name.dirty" class="invalid-feedback">
+              please enter a valid name.
           </div>
         </div>
         <div class="box contact-form-container">
-          <input name="email" formControlName="email" type="text" placeholder="Email" />
-          <div *ngIf="contactF.email.errors" class="invalid-feedback">
-              <div *ngIf="contactF.email.errors.required">Email is required</div>
+          <input name="email" formControlName="email" type="text" placeholder="Email" [ngClass]="{'error-input': contactF.email.errors.required && contactF.email.dirty }"/>
+          <div *ngIf="contactF.email.errors.required && contactF.email.dirty" class="invalid-feedback">
+              please enter a valid email.
           </div>
         </div>
       </div>
       <div class="text-area-container">
-        <textarea formControlName="message" name="message" placeholder="Message"></textarea>
-        <div *ngIf="contactF.message.errors" class="invalid-feedback">
-            <div *ngIf="contactF.message.errors.required">Message is required</div>
+        <textarea formControlName="message" name="message" placeholder="Message" [ngClass]="{'error-input': contactF.message.errors.required && contactF.message.dirty }"></textarea>
+        <div *ngIf="contactF.message.errors.required && contactF.message.dirty" class="invalid-feedback">
+            please enter a message.
         </div>
       </div>
       <div>

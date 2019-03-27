@@ -6,6 +6,7 @@
 
     .title-container {
         color: #333;
+        padding-bottom: 40px;
         & h2 {
             position: relative;
             font-weight: 700;
@@ -35,7 +36,7 @@
         text-align: left;
         padding: 40px 0px;
         .box {
-            display: flex;
+            display: grid;
             flex-direction: column; 
             & input {
                 width: 100%;
@@ -43,9 +44,18 @@
                 color: #232323;
                 padding: 8px 16px;
                 font-size: 15px;
+                &.error-input {
+                    border: 1px solid#CD5C5C;
+                }
+            }
+
+            .invalid-feedback {
+                color: #CD5C5C;
+                text-align: center;
             }
 
             .circle-wrapper {
+                grid-area: logo;
                 width: 50px;
                 height: 50px;
                 background-color: #000000;
@@ -54,6 +64,19 @@
                 line-height: 50px;
                 border-radius: 30px;
             }
+
+            .label-wrapper {
+                grid-area: label;
+            }
+            .text-wrapper {
+                grid-area: text;
+            }
+        }
+
+        .box-glue {
+            grid-template-areas: "logo label"
+                                "logo text";
+                                grid-template-columns: 1fr 4fr;
         }
     }
     .text-area-container {
@@ -65,6 +88,9 @@
             color: #232323;
             border: 1px solid #ddd;
             font-size: 15px;
+            &.error-input {
+                border: 1px solid#CD5C5C;
+            }
         }
         margin-bottom: 40px;
     }
