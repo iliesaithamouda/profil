@@ -844,7 +844,7 @@ var PortfolioService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"posts-container\">\r\n    this is a post section \r\n  </div>"
+module.exports = "<div class=\"posts-container\">\r\n  <div class=\"title-container\">\r\n    <h2>{{data.title}}</h2>\r\n  </div>\r\n  <div class=\"grid-container\">\r\n    <ng-template ngFor let-item [ngForOf]=\"data.items\" let-i=\"index\" let-c=\"count\">\r\n      <div class=\"box\">\r\n        <div class=\"sub-box\">\r\n          <img class=\"image\" [src]=\"item.imgPath\" />\r\n        </div>\r\n        <div class=\"sub-box\">\r\n          <div class=\"title\">\r\n            <h3>{{ item.title }}</h3>\r\n          </div>\r\n          <div class=\"description\">\r\n            {{ item.description }}\r\n          </div>\r\n          <div class=\"external-link\">\r\n            <a href=\"https://medium.com/@iliesaithamouda/debugging-html-element-attribute-through-the-console-developer-tool-5b238e139857\">read more...</a>\r\n          </div>\r\n        </div>\r\n      </div>  \r\n    </ng-template>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -855,7 +855,7 @@ module.exports = "<div class=\"posts-container\">\r\n    this is a post section 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Bvc3RzL3Bvc3RzLmNvbXBvbmVudC5zY3NzIn0= */"
+module.exports = ".posts-container .title-container {\n  color: #333;\n  padding-bottom: 40px; }\n  .posts-container .title-container h2 {\n    position: relative;\n    font-weight: 700;\n    line-height: 43px;\n    padding-bottom: 15px;\n    font-size: 36px;\n    margin: 0px;\n    display: inline-block; }\n  .posts-container .title-container h2::after {\n      content: '';\n      position: absolute;\n      background-color: #444444;\n      height: 2px;\n      left: 4px;\n      bottom: 0px;\n      width: 50px;\n      text-align: center; }\n  .posts-container .grid-container {\n  display: grid;\n  grid-gap: 40px;\n  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));\n  text-align: left;\n  padding: 20px; }\n  .posts-container .grid-container .box {\n    flex-direction: column;\n    display: grid;\n    grid-gap: 40px;\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }\n  .posts-container .grid-container .box .sub-box {\n      display: flex;\n      flex-direction: column;\n      position: relative; }\n  .posts-container .grid-container .box .title h3 {\n      font-size: 19px;\n      font-weight: 700;\n      text-transform: uppercase;\n      position: relative;\n      padding-bottom: 15px; }\n  .posts-container .grid-container .box .title h3::after {\n        content: '';\n        position: absolute;\n        background-color: #333333;\n        height: 1px;\n        left: 42%;\n        bottom: 0px;\n        width: 55px;\n        text-align: center; }\n  .posts-container .grid-container .box .image {\n      width: 100%; }\n  .posts-container .grid-container .box .external-link {\n      position: absolute;\n      bottom: 6px;\n      right: 6px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcG9zdHMvQzpcXHdvcmtcXHByb2ZpbC9zcmNcXGFwcFxccG9zdHNcXHBvc3RzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRVEsV0FBVztFQUNYLG9CQUFvQixFQUFBO0VBSDVCO0lBS1ksa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsb0JBQW9CO0lBQ3BCLGVBQWU7SUFDZixXQUFXO0lBQ1gscUJBQXFCLEVBQUE7RUFYakM7TUFhZ0IsV0FBVztNQUNYLGtCQUFrQjtNQUNsQix5QkFBaUM7TUFDakMsV0FBVztNQUNYLFNBQVM7TUFDVCxXQUFXO01BQ1gsV0FBVztNQUNYLGtCQUFrQixFQUFBO0VBcEJsQztFQTBCUSxhQUFhO0VBQ2IsY0FBYztFQUNkLDJEQUEyRDtFQUMzRCxnQkFBZ0I7RUFDaEIsYUFBYSxFQUFBO0VBOUJyQjtJQWdDWSxzQkFBc0I7SUFDdEIsYUFBYTtJQUNiLGNBQWM7SUFDZCwyREFBMkQsRUFBQTtFQW5DdkU7TUFxQ2dCLGFBQWE7TUFDYixzQkFBc0I7TUFDdEIsa0JBQWtCLEVBQUE7RUF2Q2xDO01BMkNnQixlQUFlO01BQ2YsZ0JBQWdCO01BQ2hCLHlCQUF5QjtNQUN6QixrQkFBa0I7TUFDbEIsb0JBQW9CLEVBQUE7RUEvQ3BDO1FBa0RvQixXQUFXO1FBQ1gsa0JBQWtCO1FBQ2xCLHlCQUFpQztRQUNqQyxXQUFXO1FBQ1gsU0FBUztRQUNULFdBQVc7UUFDWCxXQUFXO1FBQ1gsa0JBQWtCLEVBQUE7RUF6RHRDO01BNkRnQixXQUFXLEVBQUE7RUE3RDNCO01BaUVnQixrQkFBa0I7TUFDbEIsV0FBVztNQUNYLFVBQVUsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3Bvc3RzL3Bvc3RzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBvc3RzLWNvbnRhaW5lciB7XHJcbiAgICAudGl0bGUtY29udGFpbmVyIHtcclxuICAgICAgICBjb2xvcjogIzMzMztcclxuICAgICAgICBwYWRkaW5nLWJvdHRvbTogNDBweDtcclxuICAgICAgICAmIGgyIHtcclxuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICAgICAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgICAgICAgICBsaW5lLWhlaWdodDogNDNweDtcclxuICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDE1cHg7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMzZweDtcclxuICAgICAgICAgICAgbWFyZ2luOiAwcHg7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICAgICAgJjo6YWZ0ZXIge1xyXG4gICAgICAgICAgICAgICAgY29udGVudDogJyc7XHJcbiAgICAgICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoNjgsIDY4LCA2OCk7XHJcbiAgICAgICAgICAgICAgICBoZWlnaHQ6IDJweDtcclxuICAgICAgICAgICAgICAgIGxlZnQ6IDRweDtcclxuICAgICAgICAgICAgICAgIGJvdHRvbTogMHB4O1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDUwcHg7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICB9XHJcblxyXG4gICAgLmdyaWQtY29udGFpbmVyIHtcclxuICAgICAgICBkaXNwbGF5OiBncmlkO1xyXG4gICAgICAgIGdyaWQtZ2FwOiA0MHB4O1xyXG4gICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZml0LCBtaW5tYXgoNDIwcHgsIDFmcikpO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgICAgICAgcGFkZGluZzogMjBweDtcclxuICAgICAgICAuYm94IHtcclxuICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICAgICAgZGlzcGxheTogZ3JpZDtcclxuICAgICAgICAgICAgZ3JpZC1nYXA6IDQwcHg7XHJcbiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZml0LCBtaW5tYXgoMjAwcHgsIDFmcikpO1xyXG4gICAgICAgICAgICAuc3ViLWJveCB7XHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgLnRpdGxlIGgzIHtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTlweDtcclxuICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDE1cHg7XHJcblxyXG4gICAgICAgICAgICAgICAgJjo6YWZ0ZXIge1xyXG4gICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6ICcnO1xyXG4gICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoNTEsIDUxLCA1MSk7XHJcbiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAxcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbGVmdDogNDIlO1xyXG4gICAgICAgICAgICAgICAgICAgIGJvdHRvbTogMHB4O1xyXG4gICAgICAgICAgICAgICAgICAgIHdpZHRoOiA1NXB4O1xyXG4gICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAuaW1hZ2Uge1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIC5leHRlcm5hbC1saW5rIHtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICAgICAgICAgIGJvdHRvbTogNnB4O1xyXG4gICAgICAgICAgICAgICAgcmlnaHQ6IDZweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgIH1cclxufSJdfQ== */"
 
 /***/ }),
 
@@ -871,12 +871,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PostsComponent", function() { return PostsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _posts_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./posts.service */ "./src/app/posts/posts.service.ts");
+
 
 
 var PostsComponent = /** @class */ (function () {
-    function PostsComponent() {
+    function PostsComponent(postService) {
+        this.postService = postService;
     }
     PostsComponent.prototype.ngOnInit = function () {
+        this.postService.initializeData();
+        this.data = this.postService.data;
     };
     PostsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -884,9 +889,89 @@ var PostsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./posts.component.html */ "./src/app/posts/posts.component.html"),
             styles: [__webpack_require__(/*! ./posts.component.scss */ "./src/app/posts/posts.component.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_posts_service__WEBPACK_IMPORTED_MODULE_2__["PostsService"]])
     ], PostsComponent);
     return PostsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/posts/posts.service.ts":
+/*!****************************************!*\
+  !*** ./src/app/posts/posts.service.ts ***!
+  \****************************************/
+/*! exports provided: PostsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PostsService", function() { return PostsService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var PostsService = /** @class */ (function () {
+    function PostsService() {
+    }
+    PostsService.prototype.initializeData = function () {
+        this._data = {
+            items: this.servicesItems,
+            title: 'My Posts'
+        };
+    };
+    Object.defineProperty(PostsService.prototype, "data", {
+        get: function () {
+            return this._data;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(PostsService.prototype, "servicesItems", {
+        get: function () {
+            return [{
+                    imgPath: './assets/test.jpg',
+                    title: 'web development',
+                    description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
+                },
+                {
+                    imgPath: './assets/test.jpg',
+                    title: 'web development',
+                    description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
+                },
+                {
+                    imgPath: './assets/test.jpg',
+                    title: 'web development',
+                    description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
+                },
+                {
+                    imgPath: './assets/test.jpg',
+                    title: 'web development',
+                    description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
+                },
+                {
+                    imgPath: './assets/test.jpg',
+                    title: 'web development',
+                    description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
+                },
+                {
+                    imgPath: './assets/test.jpg',
+                    title: 'web development',
+                    description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
+                },
+            ];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    PostsService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], PostsService);
+    return PostsService;
 }());
 
 
