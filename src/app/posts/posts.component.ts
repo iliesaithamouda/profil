@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PostsService } from './posts.service';
+import { Data } from '../portfolio/data.model';
 
 @Component({
   selector: 'app-posts',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
 
-  constructor() { }
+  data: Data;
+
+  constructor( private postService: PostsService) { }
 
   ngOnInit() {
+    this.postService.initializeData();
+    this.data = this.postService.data;
   }
 
 }
