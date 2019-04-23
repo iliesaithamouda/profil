@@ -30,8 +30,9 @@
     position: relative;
     padding: 0px;
     .section {
-        margin: 0 auto;
+        margin: 0;
         position: relative;
-        top: 35vh;
+        transform: translateY(-50%);
+        top: 50%;
     }
 }
