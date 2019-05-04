@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     // Can also be included with a regular script tag
     var options = {
-      strings: ["I'm a human being", "I'm a Husband","I'm a Father","I'm a Dreamer..","Oh and i'm a Developer :)"],
+      strings: ["A human being", "A Husband","A Father","A code lover","Oh and a Developer :)"],
       loop: false,
       backSpeed: 1,
       typeSpeed: 100,

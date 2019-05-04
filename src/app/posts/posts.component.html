@@ -2,21 +2,21 @@
   <div class="title-container">
     <h2>{{data.title}}</h2>
   </div>
-  <div class="grid-container">
-    <ng-template ngFor let-item [ngForOf]="data.items" let-i="index" let-c="count">
+  <div *ngIf="response && response.length > 0" class="grid-container">
+    <ng-template ngFor let-item [ngForOf]="response" let-i="index" let-c="count">
       <div class="box">
         <div class="sub-box">
-          <img class="image" [src]="item.imgPath" />
+          
         </div>
         <div class="sub-box">
           <div class="title">
             <h3>{{ item.title }}</h3>
           </div>
           <div class="description">
-            {{ item.description }}
+            {{ item.content.subtitle }}
           </div>
           <div class="external-link">
-            <a href="https://medium.com/@iliesaithamouda/debugging-html-element-attribute-through-the-console-developer-tool-5b238e139857">read more...</a>
+            <a href="https://medium.com/@iliesaithamouda/{{item.id}}">read more...</a>
           </div>
         </div>
       </div>  

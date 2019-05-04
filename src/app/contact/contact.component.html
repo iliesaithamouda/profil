@@ -22,26 +22,26 @@
     <div [formGroup]="contactForm" (ngSubmit)="submitForm()" class="form-group">
       <div class="grid-container contact-form">
         <div class="box contact-form-container">
-          <input [ngClass]="{'error-input': contactF.name.errors.required && contactF.name.dirty }" name="name" formControlName="name" type="text" placeholder="Name" />
-          <div *ngIf="contactF.name.errors.required && contactF.name.dirty" class="invalid-feedback">
+          <input [ngClass]="{'error-input': contactF.name.errors?.required && contactF.name.dirty }" name="name" formControlName="name" type="text" placeholder="Name" />
+          <div *ngIf="contactF.name.errors?.required && contactF.name.dirty" class="invalid-feedback">
               please enter a valid name.
           </div>
         </div>
         <div class="box contact-form-container">
-          <input name="email" formControlName="email" type="text" placeholder="Email" [ngClass]="{'error-input': contactF.email.errors.required && contactF.email.dirty }"/>
-          <div *ngIf="contactF.email.errors.required && contactF.email.dirty" class="invalid-feedback">
+          <input name="email" formControlName="email" type="text" placeholder="Email" [ngClass]="{'error-input': contactF.email.errors?.required && contactF.email.dirty }"/>
+          <div *ngIf="contactF.email.errors?.required && contactF.email.dirty" class="invalid-feedback">
               please enter a valid email.
           </div>
         </div>
       </div>
       <div class="text-area-container">
-        <textarea formControlName="message" name="message" placeholder="Message" [ngClass]="{'error-input': contactF.message.errors.required && contactF.message.dirty }"></textarea>
-        <div *ngIf="contactF.message.errors.required && contactF.message.dirty" class="invalid-feedback">
+        <textarea formControlName="message" name="message" placeholder="Message" [ngClass]="{'error-input': contactF.message.errors?.required && contactF.message.dirty }"></textarea>
+        <div *ngIf="contactF.message.errors?.required && contactF.message.dirty" class="invalid-feedback">
             please enter a message.
         </div>
       </div>
       <div>
-        <button class="send-button" type="submit">Send Message</button>
+        <button class="send-button" (click)="submitForm()" type="submit">Send Message</button>
       </div>
     </div>
 </div>
