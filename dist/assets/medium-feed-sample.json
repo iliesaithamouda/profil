@@ -1,0 +1,450 @@
+{
+    "success": true,
+    "payload": {
+        "user": {
+            "userId": "4cdb88e665b7",
+            "name": "Ilies Aithamouda",
+            "username": "iliesaithamouda",
+            "createdAt": 1530151663730,
+            "imageId": "1*JyfINt1VPJfslf0J39mmlw.jpeg",
+            "backgroundImageId": "",
+            "bio": "Programming is an art and I'm an artist.",
+            "twitterScreenName": "",
+            "facebookAccountId": "",
+            "allowNotes": 1,
+            "mediumMemberAt": 0,
+            "isNsfw": false,
+            "isWriterProgramEnrolled": true,
+            "isQuarantined": false,
+            "type": "User"
+        },
+        "streamItems": [
+            {
+                "createdAt": 1563420545285,
+                "heading": {
+                    "text": "Latest",
+                    "heading": {
+                        "fallbackTitle": "Latest",
+                        "headingBasic": {
+                            "title": "Latest"
+                        },
+                        "headingType": "headingBasic"
+                    }
+                },
+                "randomId": "69fd208ebdee",
+                "itemType": "heading",
+                "type": "StreamItem"
+            },
+            {
+                "createdAt": 1563420545285,
+                "postPreview": {
+                    "postId": "5b238e139857",
+                    "postSuggestionReasons": [
+                        {
+                            "reason": 28
+                        }
+                    ]
+                },
+                "randomId": "762339caf43e",
+                "itemType": "postPreview",
+                "type": "StreamItem"
+            }
+        ],
+        "userMeta": {
+            "numberOfPostsPublished": 2,
+            "userId": "4cdb88e665b7",
+            "userSuggestionReason": {
+                "followeesWhoFollow": {
+                    "users": []
+                },
+                "reason": "followeesWhoFollow"
+            },
+            "collectionIds": [],
+            "authorTags": [
+                {
+                    "slug": "javascript",
+                    "name": "JavaScript",
+                    "postCount": 101335,
+                    "metadata": {
+                        "postCount": 101335,
+                        "coverImage": {
+                            "id": "1*4myGuiPu-Zob0s9MRTvh0Q.jpeg",
+                            "originalWidth": 2048,
+                            "originalHeight": 1152,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "web-development",
+                    "name": "Web Development",
+                    "postCount": 99361,
+                    "metadata": {
+                        "postCount": 99361,
+                        "coverImage": {
+                            "id": "1*CFM9_VhPRrGG755enCmClw.jpeg",
+                            "originalWidth": 2550,
+                            "originalHeight": 1700
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "html",
+                    "name": "HTML",
+                    "postCount": 6407,
+                    "metadata": {
+                        "postCount": 6407,
+                        "coverImage": {
+                            "id": "1*cAQyqO9z66861zXE48zm6w.jpeg",
+                            "originalWidth": 4606,
+                            "originalHeight": 3071,
+                            "isFeatured": true,
+                            "alt": "Pessoa cega usando o computador com display Braille"
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "chrome",
+                    "name": "Chrome",
+                    "postCount": 3270,
+                    "metadata": {
+                        "postCount": 3270,
+                        "coverImage": {
+                            "id": "1*caFo_YOiXmm0E98es1hkJQ.jpeg",
+                            "originalWidth": 1280,
+                            "originalHeight": 600,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "developer-tools",
+                    "name": "Developer Tools",
+                    "postCount": 1706,
+                    "metadata": {
+                        "postCount": 1706,
+                        "coverImage": {
+                            "id": "1*EyndLcGJ0c3N8gfNZmnwqA.png",
+                            "originalWidth": 368,
+                            "originalHeight": 330,
+                            "alt": "Working progress tree by scope.ink"
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "featuredPostId": "",
+            "topWriterInTags": [],
+            "type": "UserMeta"
+        },
+        "userNavItemList": {
+            "userNavItems": [
+                {
+                    "title": "Profile",
+                    "url": "https://medium.com/@iliesaithamouda",
+                    "systemItem": {
+                        "systemType": 1
+                    },
+                    "navType": "systemItem"
+                },
+                {
+                    "title": "Claps",
+                    "url": "https://medium.com/@iliesaithamouda/has-recommended",
+                    "systemItem": {
+                        "systemType": 4
+                    },
+                    "navType": "systemItem"
+                },
+                {
+                    "title": "Responses",
+                    "url": "https://medium.com/@iliesaithamouda/responses",
+                    "systemItem": {
+                        "systemType": 3
+                    },
+                    "navType": "systemItem"
+                }
+            ]
+        },
+        "userNavActiveIndex": 0,
+        "profileTypeName": "overview",
+        "isStandaloneEditPage": false,
+        "references": {
+            "User": {
+                "4cdb88e665b7": {
+                    "userId": "4cdb88e665b7",
+                    "name": "Ilies Aithamouda",
+                    "username": "iliesaithamouda",
+                    "createdAt": 1530151663730,
+                    "imageId": "1*JyfINt1VPJfslf0J39mmlw.jpeg",
+                    "backgroundImageId": "",
+                    "bio": "Programming is an art and I'm an artist.",
+                    "twitterScreenName": "",
+                    "facebookAccountId": "",
+                    "allowNotes": 1,
+                    "mediumMemberAt": 0,
+                    "isNsfw": false,
+                    "isWriterProgramEnrolled": true,
+                    "isQuarantined": false,
+                    "type": "User"
+                }
+            },
+            "Post": {
+                "5b238e139857": {
+                    "id": "5b238e139857",
+                    "versionId": "b5548af23f6a",
+                    "creatorId": "4cdb88e665b7",
+                    "homeCollectionId": "",
+                    "title": "Debugging HTML Element attribute through the console (developer tool)",
+                    "detectedLanguage": "en",
+                    "latestVersion": "b5548af23f6a",
+                    "latestPublishedVersion": "b5548af23f6a",
+                    "hasUnpublishedEdits": false,
+                    "latestRev": 453,
+                    "createdAt": 1547086553235,
+                    "updatedAt": 1547091636834,
+                    "acceptedAt": 0,
+                    "firstPublishedAt": 1547090933555,
+                    "latestPublishedAt": 1547091636834,
+                    "vote": false,
+                    "experimentalCss": "",
+                    "displayAuthor": "",
+                    "content": {
+                        "subtitle": "Hi Folks,",
+                        "postDisplay": {
+                            "coverless": true
+                        }
+                    },
+                    "virtuals": {
+                        "allowNotes": true,
+                        "previewImage": {
+                            "imageId": "1*9iWexISfkBNDuiEb6P8O0Q.png",
+                            "filter": "",
+                            "backgroundSize": "",
+                            "originalWidth": 667,
+                            "originalHeight": 375,
+                            "strategy": "resample",
+                            "height": 0,
+                            "width": 0
+                        },
+                        "wordCount": 464,
+                        "imageCount": 2,
+                        "readingTime": 2.1342767295597485,
+                        "subtitle": "Hi Folks,",
+                        "usersBySocialRecommends": [],
+                        "noIndex": false,
+                        "recommends": 3,
+                        "isBookmarked": false,
+                        "tags": [
+                            {
+                                "slug": "javascript",
+                                "name": "JavaScript",
+                                "postCount": 101335,
+                                "metadata": {
+                                    "postCount": 101335,
+                                    "coverImage": {
+                                        "id": "1*4myGuiPu-Zob0s9MRTvh0Q.jpeg",
+                                        "originalWidth": 2048,
+                                        "originalHeight": 1152,
+                                        "isFeatured": true
+                                    }
+                                },
+                                "type": "Tag"
+                            },
+                            {
+                                "slug": "developer-tools",
+                                "name": "Developer Tools",
+                                "postCount": 1706,
+                                "metadata": {
+                                    "postCount": 1706,
+                                    "coverImage": {
+                                        "id": "1*EyndLcGJ0c3N8gfNZmnwqA.png",
+                                        "originalWidth": 368,
+                                        "originalHeight": 330,
+                                        "alt": "Working progress tree by scope.ink"
+                                    }
+                                },
+                                "type": "Tag"
+                            },
+                            {
+                                "slug": "html",
+                                "name": "HTML",
+                                "postCount": 6407,
+                                "metadata": {
+                                    "postCount": 6407,
+                                    "coverImage": {
+                                        "id": "1*cAQyqO9z66861zXE48zm6w.jpeg",
+                                        "originalWidth": 4606,
+                                        "originalHeight": 3071,
+                                        "isFeatured": true,
+                                        "alt": "Pessoa cega usando o computador com display Braille"
+                                    }
+                                },
+                                "type": "Tag"
+                            },
+                            {
+                                "slug": "web-development",
+                                "name": "Web Development",
+                                "postCount": 99361,
+                                "metadata": {
+                                    "postCount": 99361,
+                                    "coverImage": {
+                                        "id": "1*CFM9_VhPRrGG755enCmClw.jpeg",
+                                        "originalWidth": 2550,
+                                        "originalHeight": 1700
+                                    }
+                                },
+                                "type": "Tag"
+                            },
+                            {
+                                "slug": "chrome",
+                                "name": "Chrome",
+                                "postCount": 3270,
+                                "metadata": {
+                                    "postCount": 3270,
+                                    "coverImage": {
+                                        "id": "1*caFo_YOiXmm0E98es1hkJQ.jpeg",
+                                        "originalWidth": 1280,
+                                        "originalHeight": 600,
+                                        "isFeatured": true
+                                    }
+                                },
+                                "type": "Tag"
+                            }
+                        ],
+                        "socialRecommendsCount": 0,
+                        "responsesCreatedCount": 0,
+                        "links": {
+                            "entries": [],
+                            "version": "0.3",
+                            "generatedAt": 1547091636974
+                        },
+                        "isLockedPreviewOnly": false,
+                        "metaDescription": "",
+                        "totalClapCount": 7,
+                        "sectionCount": 1,
+                        "readingList": 0,
+                        "topics": []
+                    },
+                    "coverless": true,
+                    "slug": "debugging-html-element-attribute-through-the-console-developer-tool",
+                    "translationSourcePostId": "",
+                    "translationSourceCreatorId": "",
+                    "isApprovedTranslation": false,
+                    "inResponseToPostId": "",
+                    "inResponseToRemovedAt": 0,
+                    "isTitleSynthesized": false,
+                    "allowResponses": true,
+                    "importedUrl": "",
+                    "importedPublishedAt": 0,
+                    "visibility": 0,
+                    "uniqueSlug": "debugging-html-element-attribute-through-the-console-developer-tool-5b238e139857",
+                    "previewContent": {
+                        "bodyModel": {
+                            "paragraphs": [
+                                {
+                                    "name": "previewImage",
+                                    "type": 4,
+                                    "text": "",
+                                    "layout": 10,
+                                    "metadata": {
+                                        "id": "1*9iWexISfkBNDuiEb6P8O0Q.png",
+                                        "originalWidth": 667,
+                                        "originalHeight": 375,
+                                        "isFeatured": true
+                                    }
+                                },
+                                {
+                                    "name": "previewTitle",
+                                    "type": 3,
+                                    "text": "Debugging HTML Element attribute through the console (developer tool)",
+                                    "alignment": 1
+                                },
+                                {
+                                    "name": "previewSubtitle",
+                                    "type": 13,
+                                    "text": "Hi Folks,",
+                                    "alignment": 1
+                                }
+                            ],
+                            "sections": [
+                                {
+                                    "startIndex": 0
+                                }
+                            ]
+                        },
+                        "isFullContent": false,
+                        "subtitle": "Hi Folks,"
+                    },
+                    "license": 0,
+                    "inResponseToMediaResourceId": "",
+                    "canonicalUrl": "",
+                    "approvedHomeCollectionId": "",
+                    "newsletterId": "",
+                    "webCanonicalUrl": "",
+                    "mediumUrl": "",
+                    "migrationId": "",
+                    "notifyFollowers": true,
+                    "notifyTwitter": false,
+                    "notifyFacebook": false,
+                    "responseHiddenOnParentPostAt": 0,
+                    "isSeries": false,
+                    "isSubscriptionLocked": false,
+                    "seriesLastAppendedAt": 0,
+                    "audioVersionDurationSec": 0,
+                    "sequenceId": "",
+                    "isNsfw": false,
+                    "isEligibleForRevenue": false,
+                    "isBlockedFromHightower": false,
+                    "deletedAt": 0,
+                    "lockedPostSource": 0,
+                    "hightowerMinimumGuaranteeStartsAt": 0,
+                    "hightowerMinimumGuaranteeEndsAt": 0,
+                    "featureLockRequestAcceptedAt": 0,
+                    "mongerRequestType": 1,
+                    "layerCake": 0,
+                    "socialTitle": "",
+                    "socialDek": "",
+                    "editorialPreviewTitle": "",
+                    "editorialPreviewDek": "",
+                    "curationEligibleAt": 0,
+                    "isProxyPost": false,
+                    "proxyPostFaviconUrl": "",
+                    "proxyPostProviderName": "",
+                    "proxyPostType": 0,
+                    "type": "Post"
+                }
+            },
+            "Social": {
+                "4cdb88e665b7": {
+                    "userId": "lo_FmnCMqdNgJuo",
+                    "targetUserId": "4cdb88e665b7",
+                    "type": "Social"
+                }
+            },
+            "SocialStats": {
+                "4cdb88e665b7": {
+                    "userId": "4cdb88e665b7",
+                    "usersFollowedCount": 4,
+                    "usersFollowedByCount": 1,
+                    "type": "SocialStats"
+                }
+            }
+        },
+        "paging": {
+            "path": "https://medium.com/_/api/users/4cdb88e665b7/profile/stream",
+            "next": {
+                "limit": 10,
+                "to": "1547090933555",
+                "source": "overview",
+                "ignoredIds": [],
+                "page": 2
+            }
+        }
+    },
+    "v": 3,
+    "b": "38122-5755e9d"
+}
