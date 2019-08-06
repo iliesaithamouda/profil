@@ -19,11 +19,11 @@ export class PostsComponent implements OnInit {
   ngOnInit() {
     this.postService.initializeData();
     this.data = this.postService.data;
-    //this.postItems$ = this.postService.postItems.subscribe(successData => { return successData}, errors => { console.log(errors)});
     let result: any;
     this.postService.postItems.subscribe(successData => { 
-      result = JSON.parse(successData);
-      this.changePostKeysToListOfPosts(result);
+      // nothing will happen here because the response will always have a syntax error due to a protection against cross site scripting.
+      // result = JSON.parse(successData);
+      // this.changePostKeysToListOfPosts(result);
     }, errors => { 
      // this.response = JSON.parse(errors.error.text.replace('])}while(1);</x>',''));
      let jsonString = errors.error.text.replace('])}while(1);</x>','');
@@ -36,7 +36,8 @@ export class PostsComponent implements OnInit {
   }
 
   changePostKeysToListOfPosts(result: any) {
-    let arrayCustomKeys: { [key: string]: any } = result.payload.post;
+    let arrayCustomKeys: { [key: string]: any } = result.payload.references.Post;
+    console.log(arrayCustomKeys);
     let postList: Array<any> = new Array();
     for(let key in arrayCustomKeys){
         if (key) {
@@ -44,6 +45,7 @@ export class PostsComponent implements OnInit {
         }
 
     }
+    console.log(postList);
     this.response = postList;
 
   }

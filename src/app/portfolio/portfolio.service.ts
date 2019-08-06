@@ -49,7 +49,7 @@ export class PortfolioService {
         },
         {
           imgPath : 'fa-react', 
-          title: 'Nodejs', 
+          title: 'react', 
           description: 'I\'m still a beginner, but a fast learner. I can\'t simply not speak the most spoken reactive front-end language'
         }
       ];

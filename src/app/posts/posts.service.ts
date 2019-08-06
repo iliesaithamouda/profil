@@ -25,12 +25,12 @@ export class PostsService {
 
   get postItems(): Observable<any> {
     let headers = new HttpHeaders();
-    headers.append('origin','medium.com');
+    //headers.append('origin','medium.com');
     return this.httpClient.get<any>(postSource, { headers: headers}).pipe(
       tap( result => {
-        console.log(result);
-          return result.json.data;
-          
+          console.log(result);
+         // return result.json.data;
+          return result;
       }));
   }
 

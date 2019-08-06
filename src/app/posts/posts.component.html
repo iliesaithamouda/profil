@@ -6,7 +6,9 @@
     <ng-template ngFor let-item [ngForOf]="response" let-i="index" let-c="count">
       <div class="box">
         <div class="sub-box">
-          
+          <div class="image">
+            <img src="https://miro.medium.com/max/300/{{item.virtuals.previewImage.imageId}}"/>
+          </div>
         </div>
         <div class="sub-box">
           <div class="title">
@@ -16,7 +18,7 @@
             {{ item.content.subtitle }}
           </div>
           <div class="external-link">
-            <a href="https://medium.com/@iliesaithamouda/{{item.id}}">read more...</a>
+            <a target='_blank' href="https://medium.com/@iliesaithamouda/{{item.id}}">read more...</a>
           </div>
         </div>
       </div>  
