@@ -1,6 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { Menu } from './models/Menu';
 import { trigger,state,style,animate,transition } from '@angular/animations';
+import { MenuItem } from './models/menu-item';
 
 @Component({
   selector: 'app-menu',
@@ -20,10 +21,10 @@ import { trigger,state,style,animate,transition } from '@angular/animations';
         borderBottom: '1px solid #f0f0f0'
       })),
       transition('block => fixed', [
-        animate('0.5s')
+        animate('0.3s')
       ]),
       transition('fixed => block', [
-        animate('0.5s')
+        animate('0.3s')
       ]),
     ]),
     trigger('animateColorMenu', [
@@ -36,10 +37,10 @@ import { trigger,state,style,animate,transition } from '@angular/animations';
         borderBottom: '1px solid #f0f0f0'
       })),
       transition('block => fixed', [
-        animate('0.3s')
+        animate('0.2s')
       ]),
       transition('fixed => block', [
-        animate('0.3s')
+        animate('0.2s')
       ]),
     ]),
   ]
@@ -65,6 +66,16 @@ export class MenuComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  get logoPath(): string {
+    return (this.menuState === 'block') ? './assets/logo_v2.png' : './assets/logo_v2_9t.png';
+  }
+
+  setMenuItemAsSelected( menuItem: MenuItem) {
+    this.menu.items.forEach(element => {
+      element.selected = element.label === menuItem.label;
+    });
   }
 
 }

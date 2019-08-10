@@ -27,11 +27,7 @@ export class PostsService {
     let headers = new HttpHeaders();
     //headers.append('origin','medium.com');
     return this.httpClient.get<any>(postSource, { headers: headers}).pipe(
-      tap( result => {
-          console.log(result);
-         // return result.json.data;
-          return result;
-      }));
+      tap( result => result));
   }
 
   get servicesItems(): Array<{imgPath: string; title: string; description: string}> {

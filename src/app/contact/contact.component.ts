@@ -26,8 +26,8 @@ export class ContactComponent implements OnInit {
       return;
     }
 
-    this.contactService.sendEmail(null, this.contactForm.get('name').value + this.contactForm.get('email').value, this.contactForm.get('message').value )
-      .subscribe(response => console.log(response));  
+    this.contactService.sendEmail(this.contactForm.get('email').value, this.contactForm.get('name').value, this.contactForm.get('message').value )
+      .subscribe(response => { /* TODO: add success message */});  
   }
 
   get contactF(): any {

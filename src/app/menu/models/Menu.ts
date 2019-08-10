@@ -1,11 +1,13 @@
+import { MenuItem } from './menu-item';
+
 export class Menu {
-    items = new Array<{label: String, link: String}>();
+    items = new Array<MenuItem>();
     constructor(){
-        this.items.push({label: 'Home', link: '/home'});
-        this.items.push({label: 'About', link: '/about'});
-        this.items.push({label: 'Services', link: '/services'});
-        this.items.push({label: 'Work', link: '/work'});
-        this.items.push({label: 'Posts', link: '/posts'});
-        this.items.push({label: 'Contact', link: '/contact'});
+        this.items.push({label: 'Home', link: '/home', selected: true});
+        this.items.push({label: 'About', link: '/about', selected: false});
+        this.items.push({label: 'Services', link: '/services', selected: false});
+        this.items.push({label: 'Work', link: '/work', selected: false});
+        this.items.push({label: 'Posts', link: '/posts', selected: false});
+        this.items.push({label: 'Contact', link: '/contact', selected: false});
     }
 }

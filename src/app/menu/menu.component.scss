@@ -6,24 +6,73 @@
         max-width: 1170px;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(1, minmax(20%, 50%)) repeat(6, minmax(80px, 1fr)); // 5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 50% repeat(6, minmax(80px, 1fr)); // 3fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 50px;
         grid-column-gap: 10px;
         color: #FFFFFF;
-         
+        --def: #96B7C4;
+        
         & .menu-item-container {
             align-items: center;
             display: grid;
             justify-items: center;
+            transition: all .4s cubic-bezier(0.77, 0, 0.175, 1);
+            user-select: none;
+            position: relative;
         }
+        &.menu-item-container.menu-item-fixed:before {
+            border: 1px solid #000;
+        }  
+        .menu-item-container:before, .menu-item-container:after {
+            content: '';
+            position: absolute;
+            transition: inherit;
+            z-index: -1;     
+        }
+
+        .menu-item-container:before {
+            top: 0;
+            left: 50%;
+            height: 100%;
+            width: 0;
+        }
+
+        .menu-item-container-selected, .menu-item-container:before {
+            border-bottom: 2px solid red;
+        }
+
+        .menu-item-container:after {
+            bottom: 0;
+            left: 0;
+            height: 0;
+            width: 100%;
+            // background: var(--inv);
+        }
+
+        .menu-item-container:not(.menu-item-container-selected):hover {
+            color: var(--def);
+            transition-delay: .3s;
+        }
+
+        .menu-item-container:not(.menu-item-container-selected):hover:before {
+            transition-delay: 0s;
+            left: 0;
+            width: 100%;
+        }
+
+        .menu-item-container:not(.menu-item-container-selected):hover:after {
+            // background: var(--inv);
+            transition-delay: .4s;
+            top: 0;
+            height: 100%;
+        }
+        
 
         .logo-container {
             width: 100px;
-
+            padding: 5px 10px;
             & img {
                 width: inherit;
-                top: -35px;
-                position: absolute;
             }
         }
     }
@@ -63,7 +112,7 @@
         .menu-grid-container {
             grid-template-columns: 3fr .5fr;
             justify-items: center;
-            padding-left: 70px;
+            padding-left: 37px;
             .ham-menu {
                 display: grid;
                 align-items: center;
@@ -71,7 +120,7 @@
                 font-size: 30px;
                 cursor: pointer;
             }
-            .menu-item-container {
+            .menu-item-container > span {
                 display: none;
             }
             .logo-container {

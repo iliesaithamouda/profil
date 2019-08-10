@@ -27,7 +27,7 @@ export class PostsComponent implements OnInit {
     }, errors => { 
      // this.response = JSON.parse(errors.error.text.replace('])}while(1);</x>',''));
      let jsonString = errors.error.text.replace('])}while(1);</x>','');
-     console.log(jsonString);
+     
      result = JSON.parse(jsonString);
      this.changePostKeysToListOfPosts(result);
     });
@@ -37,7 +37,7 @@ export class PostsComponent implements OnInit {
 
   changePostKeysToListOfPosts(result: any) {
     let arrayCustomKeys: { [key: string]: any } = result.payload.references.Post;
-    console.log(arrayCustomKeys);
+    
     let postList: Array<any> = new Array();
     for(let key in arrayCustomKeys){
         if (key) {
@@ -45,7 +45,6 @@ export class PostsComponent implements OnInit {
         }
 
     }
-    console.log(postList);
     this.response = postList;
 
   }

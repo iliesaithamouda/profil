@@ -28,4 +28,25 @@ a:hover {
 	text-decoration: none;
 }
 
+button {
+	margin: 0 auto;
+	padding: 8px 20px;
+	font-size: 12px;
+	font-weight: 700;
+	border: 2px solid #333;
+	outline: none;
+	background-color: #333;
+	color: #fafafa;
+	cursor: pointer;
+}
+
+.button-lg {
+	font-size: 16px;
+}
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 
