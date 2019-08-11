@@ -37,6 +37,11 @@
                 justify-self: left;
             }
 
+            & .justify-right {
+                justify-content: right;
+                justify-self: right;
+            }
+
             .media-icons {
                 font-size: 20px;
                 border: 1px solid black;
@@ -55,7 +60,7 @@
         }
 
         .grid-container-min-1-fr {
-            grid-template-columns: repeat(auto-fit,minmax(30px, 40px));
+            grid-template-columns: 1fr 1fr 6fr;//repeat(auto-fit,minmax(30px, 40px));
             margin-top: 20px;
         }
 
