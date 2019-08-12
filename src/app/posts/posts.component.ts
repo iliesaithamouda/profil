@@ -17,8 +17,6 @@ export class PostsComponent implements OnInit {
   constructor( private postService: PostsService) { }
 
   ngOnInit() {
-    this.postService.initializeData();
-    this.data = this.postService.data;
     let result: any;
     this.postService.postItems.subscribe(successData => { 
       // nothing will happen here because the response will always have a syntax error due to a protection against cross site scripting.

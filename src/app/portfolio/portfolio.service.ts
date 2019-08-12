@@ -13,7 +13,7 @@ export class PortfolioService {
     this._data = {
       items: layoutType === 'Work' ? this.getWorkItems() : this.getServicesItems(), 
       layoutType: layoutType, 
-      title: layoutType === 'Work' ? 'My Portfolio' : 'My Languages'};
+      title: layoutType === 'Work' ? 'My Portfolio' : 'My Services'};
   }
 
   getData(): Data {
@@ -57,35 +57,10 @@ export class PortfolioService {
 
   getWorkItems(): Array<{imgPath: string; title: string; description: string}> {
     return [{
-        imgPath : './assets/test.jpg', 
-        title: 'My first web site', 
-        description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
-      },
-      {
-        imgPath : './assets/test.jpg', 
-        title: 'web development', 
-        description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
-      },
-      {
-        imgPath : './assets/test.jpg', 
-        title: 'web development', 
-        description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
-      },
-      {
-        imgPath : './assets/test.jpg', 
-        title: 'web development', 
-        description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
-      },
-      {
-        imgPath : './assets/test.jpg', 
-        title: 'web development', 
-        description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
-      },
-      {
-        imgPath : './assets/test.jpg', 
-        title: 'web development', 
-        description: 'im really strong in web development, in fact, i can code during all night without feeling tired'
-      },
+        imgPath : './assets/portfolio-waf.png', 
+        title: 'We Are Frontend', 
+        description: 'Here I present you our first common fun project that was  mainly done by my friends and I. it tooks us about two weeks, it’s a first version/prototype/iteration. There’s a lot to improve, but we wanted to present a vision for the front-end. we’re not different (react vs angular vs vue) we’re One, we’re the front'
+      }
     ];
 }
 }
