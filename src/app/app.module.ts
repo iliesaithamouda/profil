@@ -19,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PostsComponent } from './posts/posts.component';
 import { ContactComponent } from './contact/contact.component';
 import { ScrollTopButtonComponent } from './scroll-top-button/scroll-top-button.component';
+import { QuoteComponent } from './quote/quote.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ScrollTopButtonComponent } from './scroll-top-button/scroll-top-button.
     FooterComponent,
     PostsComponent,
     ContactComponent,
-    ScrollTopButtonComponent
+    ScrollTopButtonComponent,
+    QuoteComponent
   ],
   imports: [
     BrowserModule,

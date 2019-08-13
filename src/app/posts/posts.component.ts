@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { PostsService } from './posts.service';
-import { Data } from '../portfolio/data.model';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -10,7 +9,6 @@ import { Observable } from 'rxjs';
 })
 export class PostsComponent implements OnInit {
 
-  data: Data;
   postItems$: Observable<any>;
   response: Array<any>;
 
@@ -18,11 +16,7 @@ export class PostsComponent implements OnInit {
 
   ngOnInit() {
     let result: any;
-    this.postService.postItems.subscribe(successData => { 
-      // nothing will happen here because the response will always have a syntax error due to a protection against cross site scripting.
-      // result = JSON.parse(successData);
-      // this.changePostKeysToListOfPosts(result);
-    }, errors => { 
+    this.postService.postItems.subscribe(successData => { }, errors => { 
      // this.response = JSON.parse(errors.error.text.replace('])}while(1);</x>',''));
      let jsonString = errors.error.text.replace('])}while(1);</x>','');
      
