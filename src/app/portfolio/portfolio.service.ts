@@ -55,11 +55,12 @@ export class PortfolioService {
       ];
   }
 
-  getWorkItems(): Array<{imgPath: string; title: string; description: string}> {
+  getWorkItems(): Array<{imgPath: string; title: string; link: string; description: string}> {
     return [{
-        imgPath : './assets/portfolio-waf.png', 
-        title: 'We Are Frontend', 
-        description: 'Here I present you our first common fun project that was  mainly done by my friends and I. it tooks us about two weeks, it’s a first version/prototype/iteration. There’s a lot to improve, but we wanted to present a vision for the front-end. we’re not different (react vs angular vs vue) we’re One, we’re the front'
+        imgPath : './assets/wearefrontend.png', 
+        title: 'We Are Frontend',
+        link: '',
+        description: 'Here I present you our first common fun project that was mainly done by my friends and I. It tooks us about two weeks, it’s a first version/prototype/iteration. There’s a lot to improve, but we wanted to present a vision for the front-end. We’re not different (React vs Angular vs Vue) we’re One, we’re the front'
       }
     ];
 }

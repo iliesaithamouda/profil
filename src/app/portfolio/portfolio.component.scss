@@ -60,51 +60,33 @@
         .image-container {
             margin: 10px;
             position: relative;
-            width: 300px;
             height: auto;
             .image {
                 width: 100%;
                 height: 100%;
             }
-            .overlay-container {
-                position: absolute;
-                width: 95%;
-                height: 95%;
-                margin: 2.5%;
-                background-color: transparent;
-                top: 0;
-                left:0;
-                color: transparent;
-                &:hover {
-                    background-color: rgba(0, 0, 0, 0.8);
-                    color: #FFF;
-                    .border-box {
-                        border-color: #FFFFFF;
-                    }
-                }
+        }
 
-                .border-box {
-                    border: 1px solid transparent;
-                    width: 90%;
-                    height: 90%;
-                    margin: 5%;
-                    position: relative;
-                    .title {
-                        position: absolute;
-                        bottom: 20px;
-                        left: 20px;
-                        opacity: 1;
-                        text-transform: capitalize; 
-                    }
-                }
-                
+        .info-container {
+            text-align: left;
+            .title {
+                width: 200px;
             }
-            
+        }
+
+        .button-wrapper {
+            width:200px;
+            text-align: center;
         }
     }
 
-    .grid-container-larger {
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    .grid-container-work {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
         padding: 5px;
+    }
+
+    .button-wrapper {
+        width: 300px;
+        margin: 40px auto;
     }
 }

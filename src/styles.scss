@@ -1,15 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+*:before, *:after {
+	box-sizing: border-box;
+}
 .bg-color-medium { background-color: rgb(250, 250, 250); }
 .bg-color-light { background-color: rgb(255, 255, 255); }
 body { 
 	--color-a: #484848;
 	--color-a-hover: rgb(51, 51, 51);
+	margin: 0px; 
+	font-family: "Lato", sans-serif; 
+	color: #484848; 
+	box-sizing: border-box;
+}
 
-	margin: 0px; font-family: "Lato", sans-serif; color: #484848; box-sizing: border-box;}
+// for the typed.js in the home section
 .typed-cursor {
     font-size: 26px;
     color: rgb(191, 191, 191);
 }
+
 .effect {
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
@@ -17,36 +26,17 @@ body {
 	transition: all .4s ease-in-out;
 }
 
-
-
 a {
 	color: var(--color-a);
 	text-decoration: none;
 }
+
 a:hover {
 	color: var(--color-a-hover);
 	text-decoration: none;
 }
 
-button, .btn {
-	margin: 0 auto;
-	padding: 8px 20px;
-	font-size: 12px;
-	font-weight: 700;
-	border: 2px solid #333;
-	outline: none;
-	background-color: #333;
-	color: #fafafa;
-	cursor: pointer;
-}
-
-.button-lg {
-	font-size: 16px;
-}
 
 
-*:before, *:after {
-	box-sizing: border-box;
-}
 
 

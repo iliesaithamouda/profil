@@ -20,6 +20,7 @@ import { PostsComponent } from './posts/posts.component';
 import { ContactComponent } from './contact/contact.component';
 import { ScrollTopButtonComponent } from './scroll-top-button/scroll-top-button.component';
 import { QuoteComponent } from './quote/quote.component';
+import { ButtonComponent } from './shared/button/button.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { QuoteComponent } from './quote/quote.component';
     PostsComponent,
     ContactComponent,
     ScrollTopButtonComponent,
-    QuoteComponent
+    QuoteComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
