@@ -1,0 +1,1 @@
+export type messageState = 'success' | 'error' | 'warning' | 'info';

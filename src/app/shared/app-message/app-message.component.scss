@@ -1,0 +1,41 @@
+.app-message-container {
+    position: fixed;
+    max-width: 90%;
+    min-width: 50%;
+    min-height: 4em;
+    top: 10px;
+    z-index: 3;
+    text-align: center;
+    transform: translateX(50%);
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+@media only screen and (max-width: 700px) {
+    .app-message-container {
+        width: 100%;
+        top: 0px;
+        border-radius: 0px;
+        transform: none;
+    }
+}
+
+.success {
+    color:#4F8A10;
+    background-color:#DFF2BF;
+}
+
+.error {
+    color:#D8000C;
+    background-color:#FFBABA;
+}
+
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.info {
+    color:#31708f;
+    background-color:#d9edf7;
+}

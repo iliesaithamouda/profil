@@ -1,0 +1,7 @@
+<ng-container>
+  <div [@fadeIn]="fadeIn" *ngIf="message$ | async; let message" class="app-message-container {{ message.state }}">
+    <p >
+      {{ message.description }}
+    </p>
+  </div>
+</ng-container>

@@ -21,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ScrollTopButtonComponent } from './scroll-top-button/scroll-top-button.component';
 import { QuoteComponent } from './quote/quote.component';
 import { ButtonComponent } from './shared/button/button.component';
+import { AppMessageComponent } from './shared/app-message/app-message.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ButtonComponent } from './shared/button/button.component';
     ContactComponent,
     ScrollTopButtonComponent,
     QuoteComponent,
-    ButtonComponent
+    ButtonComponent,
+    AppMessageComponent
   ],
   imports: [
     BrowserModule,

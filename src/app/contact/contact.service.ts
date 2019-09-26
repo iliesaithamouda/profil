@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpHeaders, HttpClient } from '@angular/common/http';
+import { Contact } from './contact.model';
 
-const postUrl = 'http://localhost:3000/messages';
+const postUrl = 'https://loyal-polymer-253901.appspot.com/messages';
+const mailServerUserId = 'JjU7cb91ppja0YqdR6wN';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -10,7 +13,7 @@ export class ContactService {
   constructor(private http: HttpClient) { }
 
   sendEmail(email: string, subject: string, message: string) {
-    let payload = { id: 'JjU7cb91ppja0YqdR6wN', email: email, subject: subject, message: message};
+    let payload = { id: mailServerUserId, email: email, subject: subject, message: message};
 
     const httpOptions = {
       headers: new HttpHeaders({
@@ -18,6 +21,6 @@ export class ContactService {
       })
     };
 
-    return this.http.post<any>(postUrl, payload, httpOptions);
+    return this.http.post<Contact>(postUrl, payload, httpOptions);
   }
 }

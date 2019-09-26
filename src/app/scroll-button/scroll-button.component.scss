@@ -1,11 +1,13 @@
 .scroll-button-container {
     position: absolute;
     border: 2px solid white;
-    width: 20px;
-    height: 40px;
+    width: 5%;
+    max-width: 20px;
+    height: 6%;
+    max-height: 40px;
     border-radius: 40px;
-    top: 90vh;
-    left: 49vw;
+    top: 90%;
+    left: 49%;
     padding: 5px 2px;
     cursor: pointer;
 
