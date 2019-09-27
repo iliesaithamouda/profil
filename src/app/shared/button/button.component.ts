@@ -10,6 +10,9 @@ export class ButtonComponent implements OnInit {
   @Input()
   size: 'lg' | 'md' | 'sm' = 'md';
 
+  @Input()
+  disabled: boolean = false;
+
   @Output()
   private clicked: EventEmitter<boolean> = new EventEmitter();
 

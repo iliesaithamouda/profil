@@ -3,14 +3,8 @@
     --def: white;
     --inv: #333;
 }
-.btn {
-    border: {
-        top: 1px solid var(--inv);
-        bottom: 1px solid var(--inv);
-        right: 1px solid var(--inv);
-        left: 1px solid var(--inv);
-    }
-        
+.btn:not(.disabled) {
+    border: 1px solid var(--inv);
 	position: relative;
     color: var(--inv);
     font-weight: 700;
@@ -43,7 +37,7 @@
 	z-index: -1;
 }
 
-.btn:hover {
+.btn:not(.disabled):hover {
 	color: var(--def);
     transition-delay: .6s;
     & a:hover {
@@ -52,13 +46,13 @@
     
 }
 
-.btn:hover:before {
+.btn:not(.disabled):hover:before {
     transition-delay: 0s;
     left: 0;
 	width: 100%;
 }
 
-.btn:hover:after {
+.btn:not(.disabled):hover:after {
 	background: var(--inv);
     transition-delay: .4s;
     top: 0;
@@ -67,7 +61,7 @@
 
 /* From Middle */
 
-.btn:before {
+.btn:not(.disabled):before {
 	top: 0;
 	left: 50%;
 	height: 100%;
@@ -77,7 +71,7 @@
 	border-right: 0;
 }
 
-.btn:after {
+.btn:not(.disabled):after {
 	bottom: 0;
 	left: 0;
 	height: 0;

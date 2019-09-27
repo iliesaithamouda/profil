@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="button-wrapper">
-        <app-button (clicked)="submitForm()">Send Message</app-button>
+        <app-button [disabled]="onValidation" (clicked)="submitForm()">Send Message</app-button>
       </div>
     </div>
 </div>

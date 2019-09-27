@@ -1,1 +1,1 @@
-<div class="btn btn-{{size}}" (click)="buttonClicked()"><ng-content></ng-content></div>
+<div class="btn btn-{{size}}" [ngClass]="{'disabled': disabled }" (click)="buttonClicked()"><ng-content></ng-content></div>

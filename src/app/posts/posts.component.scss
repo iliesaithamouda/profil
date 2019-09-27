@@ -25,23 +25,34 @@
 
     .grid-container {
         display: grid;
-        grid-gap: 40px;
+        grid-gap: 20px;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         text-align: left;
         padding: 20px;
+        
         .box {
             flex-direction: column;
             display: grid;
             grid-gap: 40px;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+            @media only screen and (max-width: 700px) {
+                justify-self: center;
+                grid-template-columns: repeat(auto-fit, 300px);
+            }
             .sub-box {
                 display: flex;
                 flex-direction: column;
                 position: relative;
+                align-items: center;
+                justify-content: center;
+
+                &.descr {
+                    max-width: 300px;
+                }
             }
 
             .title h3 {
-                font-size: 19px;
+                font-size: 17px;
                 font-weight: 700;
                 text-transform: uppercase;
                 position: relative;
@@ -62,7 +73,16 @@
                 width: 100%;
             }
 
+            .tag {
+                background-color: mistyrose;
+                border-radius: 10px;
+                padding: 2px 8px;
+                margin: 3px 5px;
+                float: left;
+            }
+
             .external-link {
+                margin-top: 20px;
                 text-align: center;
             }
         }
