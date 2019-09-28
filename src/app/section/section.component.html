@@ -4,7 +4,7 @@
     <app-home       *ngIf="sectionType === 'Home'"></app-home>
     <app-about      *ngIf="sectionType === 'About'"></app-about>
     <app-portfolio  *ngIf="sectionType === 'Services'" [layoutType]="sectionType"></app-portfolio>
-    <!--app-quote      *ngIf="sectionType === 'Quote'"></app-quote-->
+    <app-quote      *ngIf="sectionType === 'Quote'"></app-quote>
     <app-portfolio  *ngIf="sectionType === 'Work'" [layoutType]="sectionType"></app-portfolio>
     <app-posts      *ngIf="sectionType === 'Posts'"></app-posts>
     <app-contact    *ngIf="sectionType === 'Contact'"></app-contact>
