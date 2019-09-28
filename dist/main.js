@@ -1135,7 +1135,7 @@ var ProgressiveBarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"quote-container\">\n\n  <div class=\"title-container\">\n    <h2>My Favorite Quote</h2>\n  </div>\n\n  <div class=\"quote\">\n    <blockquote cite=\"https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none\">\n        <p>Jack of all trades, master of none, but oftentimes better than master of one</p>\n        <footer>— Alternate version of Robert Greene, <cite>Greene's Groats-Worth of Wit</cite></footer>\n    </blockquote>\n  </div>\n\n  <div class=\"embedded-video-cont\">\n    <div class=\"embedded-video\">\n        <iframe src=\"https://embed.ted.com/talks/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling\" \n        width=\"854\" \n        height=\"480\" \n        style=\"position:absolute;left:0;top:0;width:100%;height:100%\" \n        frameborder=\"0\" \n        scrolling=\"no\" \n        allowfullscreen></iframe>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"quote-container\">\r\n\r\n  <div class=\"title-container\">\r\n    <h2>My Favorite Quote</h2>\r\n  </div>\r\n\r\n  <div class=\"quote\">\r\n    <blockquote cite=\"https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none\">\r\n        <p>Jack of all trades, master of none, but oftentimes better than master of one</p>\r\n        <footer>— Alternate version of Robert Greene, <cite>Greene's Groats-Worth of Wit</cite></footer>\r\n    </blockquote>\r\n  </div>\r\n\r\n  <div class=\"embedded-video-cont\">\r\n    <div class=\"embedded-video\">\r\n        <iframe src=\"https://embed.ted.com/talks/emilie_wapnick_why_some_of_us_don_t_have_one_true_calling\" \r\n        width=\"854\" \r\n        height=\"480\" \r\n        style=\"position:absolute;left:0;top:0;width:100%;height:100%\" \r\n        frameborder=\"0\" \r\n        scrolling=\"no\" \r\n        allowfullscreen></iframe>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -1452,7 +1452,7 @@ var SectionComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ng-container>\n  <div [@fadeIn]=\"fadeIn\" *ngIf=\"message$ | async; let message\" class=\"app-message-container {{ message.state }}\">\n    <p >\n      {{ message.description }}\n    </p>\n  </div>\n</ng-container>"
+module.exports = "<ng-container>\r\n  <div [@fadeIn]=\"fadeIn\" *ngIf=\"message$ | async; let message\" class=\"app-message-container {{ message.state }}\">\r\n    <p >\r\n      {{ message.description }}\r\n    </p>\r\n  </div>\r\n</ng-container>"
 
 /***/ }),
 
@@ -1590,7 +1590,7 @@ var AppMessageService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"btn btn-{{size}}\" [ngClass]=\"{'disabled': disabled }\" (click)=\"buttonClicked()\"><ng-content></ng-content></div>\n"
+module.exports = "<div class=\"btn btn-{{size}}\" [ngClass]=\"{'disabled': disabled }\" (click)=\"buttonClicked()\"><ng-content></ng-content></div>\r\n"
 
 /***/ }),
 
