@@ -552,7 +552,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div class=\"introduction-container\">\r\n<h1>let's <span class=\"erase\">work</span> create together</h1>\r\n  <h2>ilyes ait hamouda</h2>\r\n  <span class=\"introduction-phrase\">\r\n    fullstack website developer\r\n  </span>\r\n</div>\r\n\r\n"
+module.exports = "<div class=\"introduction-container\">\r\n<h1>let's <span class=\"erase\">work</span> create together</h1>\r\n  <h2>ilyes ait hamouda</h2>\r\n  <span class=\"introduction-phrase\">\r\n    fullstack website developer\r\n  </span>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
