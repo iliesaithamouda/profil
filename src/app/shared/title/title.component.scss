@@ -1,0 +1,24 @@
+.title-container {
+    color: #333;
+    padding-bottom: 40px;
+    & h2 {
+        position: relative;
+        font-weight: 700;
+        line-height: 43px;
+        padding-bottom: 15px;
+        font-size: 36px;
+        margin: 0px;
+        display: inline-block;
+        text-transform: capitalize;
+        &::after {
+            content: '';
+            position: absolute;
+            background-color: rgb(68, 68, 68);
+            height: 2px;
+            left: 4px;
+            bottom: 0px;
+            width: 50px;
+            text-align: center;
+        }
+    }
+}

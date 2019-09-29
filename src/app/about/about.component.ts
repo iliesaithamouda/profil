@@ -20,14 +20,14 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
      // Can also be included with a regular script tag
      var options = {
-      strings: ["A human being", "A Husband","A Father","A code lover","Oh and a Developer :)"],
+      strings: ["a human being", "a Husband","a Father","a code lover","a passionate Developer", "Ilyes Ait Hamouda :)"],
       loop: false,
       backSpeed: 1,
       typeSpeed: 100,
       smartBackspace: true,
       startDelay: 0,
     }
-    var typed = new Typed(".indentity", options);
+    var typed = new Typed(".identity", options);
   }
 
 }

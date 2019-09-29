@@ -3,6 +3,7 @@
   <div class="section">
     <app-home       *ngIf="sectionType === 'Home'"></app-home>
     <app-about      *ngIf="sectionType === 'About'"></app-about>
+    <app-experience      *ngIf="sectionType === 'Experience'"></app-experience>
     <app-portfolio  *ngIf="sectionType === 'Services'" [layoutType]="sectionType"></app-portfolio>
     <app-quote      *ngIf="sectionType === 'Quote'"></app-quote>
     <app-portfolio  *ngIf="sectionType === 'Work'" [layoutType]="sectionType"></app-portfolio>

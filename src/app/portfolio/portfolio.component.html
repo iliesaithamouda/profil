@@ -1,7 +1,5 @@
 <div class="portfolio-container">
-  <div class="title-container">
-    <h2>{{data.title}}</h2>
-  </div>
+  <app-title title="{{data.title}}"></app-title>
   <div class="grid-container" [ngClass]="{'grid-container-work': layoutType === 'Work'}">
     
       <ng-template ngFor let-item [ngForOf]="data.items" let-i="index" let-c="count">
