@@ -24,6 +24,7 @@ import { ButtonComponent } from './shared/button/button.component';
 import { AppMessageComponent } from './shared/app-message/app-message.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { TitleComponent } from './shared/title/title.component';
+import { TestimonyComponent } from './testimony/testimony.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { TitleComponent } from './shared/title/title.component';
     ButtonComponent,
     AppMessageComponent,
     ExperienceComponent,
-    TitleComponent
+    TitleComponent,
+    TestimonyComponent
   ],
   imports: [
     BrowserModule,

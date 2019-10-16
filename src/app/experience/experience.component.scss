@@ -88,7 +88,7 @@
     padding: 20px 30px;
     background-color: white;
     position: relative;
-    
+    text-align: justify;
   }
 
   .content-left {
@@ -97,6 +97,20 @@
 
   .content-right {
     border-left: 2px solid var(--color-med-dark);
+  }
+
+  .tags {
+    width: 100%;
+    overflow: auto;
+  }
+  .tag {
+    background-color:#fafafa;
+    border-radius: 10px;
+    padding: 3px 8px;
+    margin: 3px 5px;
+    float: left;
+    border: 1px solid#ddd;
+    line-height: 18px;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
