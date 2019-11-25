@@ -9,7 +9,6 @@ import { MenuComponent } from './menu/menu.component';
 import { SectionComponent } from './section/section.component';
 import { ScrollBackgroundDirective } from './scroll-background.directive';
 import { SmoothScrollingDirective } from './smooth-scrolling.directive';
-import { OnscrollDirective } from './_deprecated_onscroll.directive';
 import { HomeComponent } from './home/home.component';
 import { ScrollButtonComponent } from './scroll-button/scroll-button.component';
 import { AboutComponent } from './about/about.component';
@@ -33,7 +32,6 @@ import { TestimonyComponent } from './testimony/testimony.component';
     SectionComponent,
     ScrollBackgroundDirective,
     SmoothScrollingDirective,
-    OnscrollDirective,
     HomeComponent,
     ScrollButtonComponent,
     AboutComponent,
