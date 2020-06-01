@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Contact } from './contact.model';
 
-const postUrl = 'https://loyal-polymer-253901.appspot.com/messages';
+const postUrl = 'https://im8-docker.herokuapp.com/messages';
 const mailServerUserId = 'JjU7cb91ppja0YqdR6wN';
 
 @Injectable({
