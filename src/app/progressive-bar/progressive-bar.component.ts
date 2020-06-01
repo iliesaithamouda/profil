@@ -28,7 +28,7 @@ export class ProgressiveBarComponent implements OnInit {
   @Input()
   progress: number = 75;
 
-  private animate: string = 'empty';
+  public animate: string = 'empty';
   progressRate: number = 0;
 
   constructor() { }

@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --base-href /profil/",
+    "build:prod": "ng build --prod --base-href /profil/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

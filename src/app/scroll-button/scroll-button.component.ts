@@ -28,7 +28,7 @@ import { trigger,state,style,animate,transition } from '@angular/animations';
 export class ScrollButtonComponent implements OnInit {
 
   private animateCounter: number = 0;
-  private animateValue: string = 'start';
+  public animateValue: string = 'start';
 
   @Input()
   scrollToId: string = 'About';
